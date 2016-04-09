@@ -1,0 +1,217 @@
+PREAMBLE_SEGMENT:
+6 bit:
+111110
+coded: (scaled)
+-||||-||||-||||-||||-||||-|-
+
+// if 5 ones are there the signal must be a preamble
+// preammble ends with 0 -> information follows
+
+
+
+INFORMATION_SEGMENT:
+10bit:
+class A:
+00AAAAAAII ; A=DEVICE_ID, I=INFORMATION
+
+-> 55 DEVICES
+-> 4 different INFORMATIONS possible
+
+class B:
+01BBBBIIII ; B=DEVICE_ID, I=INFORMATION
+
+-> 8 DEVICES
+-> 16 different INFORMATIONS possible
+
+class C
+1CCCIIIIII
+
+-> 4 DEVICES
+-> 61 different INFORMATIONS possible
+
+// 5 ones in a row are not allowed to ensure global common interpretatoinof the preamble
+
+EXAMPLES:
+class A: DEVICE_ID 162, INFORMATION 1
+
+
+
+TABLE 1: class A - DEVICE_ID
+
+CODE_ID  - DEC - DEVICE_NO
+AAAAAAII
+----------------------
+000000xx - 00  - # 00
+000001xx - 01  - # 01
+000010xx - 02  - # 02
+000011xx - 03  - # 03
+000100xx - 04  - # 04
+000101xx - 05  - # 05
+000110xx - 06  - # 06
+000111xx - 07  - not allowed
+001000xx - 08  - # 07
+001001xx - 09  - # 08
+001010xx - 10  - # 09
+001011xx - 11  - # 10
+001100xx - 12  - # 11
+001101xx - 13  - # 12
+001110xx - 14  - # 13
+001111xx - 15  - not allowed
+010000xx - 16  - # 14
+010001xx - 17  - # 15
+010010xx - 18  - # 16
+010011xx - 19  - # 17
+010100xx - 20  - # 18
+010101xx - 21  - # 19
+010110xx - 22  - # 20
+010111xx - 23  - not allowed
+011000xx - 24  - # 21
+011001xx - 25  - # 22
+011010xx - 26  - # 23
+011011xx - 27  - # 24
+011100xx - 28  - # 25
+011101xx - 29  - # 26
+011110xx - 30  - # 27
+011111xx - 31  - not allowed
+100000xx - 32  - # 28
+100001xx - 33  - # 29
+100010xx - 34  - # 30
+100011xx - 35  - # 31
+100100xx - 36  - # 32
+100101xx - 37  - # 33
+100110xx - 38  - # 34
+100111xx - 39  - not allowed
+101000xx - 40  - # 35
+101001xx - 41  - # 36
+101010xx - 42  - # 37
+101011xx - 43  - # 38
+101100xx - 44  - # 39
+101101xx - 45  - # 40
+101110xx - 46  - # 41
+101111xx - 47  - not allowed
+110000xx - 48  - # 42
+110001xx - 49  - # 43
+110010xx - 50  - # 44
+110011xx - 51  - # 45
+110100xx - 52  - # 46
+110101xx - 53  - # 47
+110110xx - 54  - # 48
+110111xx - 55  - not allowed
+111000xx - 56  - # 49
+111001xx - 57  - # 50
+111010xx - 58  - # 51
+111011xx - 59  - # 52
+111100xx - 60  - # 53
+111101xx - 61  - # 54
+111110xx - 62  - not allowed
+111111xx - 63  - not allowed
+
+
+
+
+TABLE 2: class B - DEVICE_ID
+
+DCODE_ID - DEC - DEVICE_NO
+BBBBIIII
+----------------------
+0000xxxx - 00  -  # 0
+0001xxxx - 01  - not allowed
+0010xxxx - 02  -  # 1
+0011xxxx - 03  - not allowed
+0100xxxx - 04  -  # 2
+0101xxxx - 05  - not allowed
+0110xxxx - 06  -  # 3
+0111xxxx - 07  - not allowed
+1000xxxx - 08  -  # 4
+1001xxxx - 09  - not allowed
+1010xxxx - 10  -  # 5
+1011xxxx - 11  - not allowed
+1100xxxx - 12  -  # 6
+1101xxxx - 13  - not allowed
+1110xxxx - 14  -  # 7
+1111xxxx - 15  - not allowed
+
+
+TABLE 3: class C - DEVICE_ID
+
+DCODE_ID   - DEC - DEVICE_NO
+CCCIIIIII 
+----------------------------
+000xxxxxx  - 00  -  # 0
+001xxxxxx  - 01  - not allowed
+010xxxxxx  - 02  -  # 1
+011xxxxxx  - 03  - not allowed
+100xxxxxx  - 04  -  # 2
+101xxxxxx  - 05  - not allowed
+110xxxxxx  - 06  -  # 3
+111xxxxxx  - 07  - not allowed
+
+TABLE 4: class C - possible "IIIIII"-values
+
+IFORMATION_CODE - DEC - VALUE_NO
+IIIIII
+--------------------------------
+000000          - 00  -  # 00
+000001          - 01  -  # 01
+000010          - 02  -  # 02
+000011          - 03  -  # 03
+000100          - 04  -  # 04
+000101          - 05  -  # 05
+000110          - 06  -  # 06
+000111          - 07  -  # 07
+001000          - 08  -  # 08
+001001          - 09  -  # 09
+001010          - 10  -  # 10
+001011          - 11  -  # 11
+001100          - 12  -  # 12
+001101          - 13  -  # 13
+001110          - 14  -  # 14
+001111          - 15  -  # 15
+010000          - 16  -  # 16
+010001          - 17  -  # 17
+010010          - 18  -  # 18
+010011          - 19  -  # 19
+010100          - 20  -  # 20
+010101          - 21  -  # 21
+010110          - 22  -  # 22
+010111          - 23  -  # 23
+011000          - 24  -  # 24
+011001          - 25  -  # 25
+011010          - 26  -  # 26
+011011          - 27  -  # 27
+011100          - 28  -  # 28
+011101          - 29  -  # 29
+011110          - 30  -  # 30
+011111          - 31  - not allowed
+100000          - 32  -  # 31
+100001          - 33  -  # 32
+100010          - 34  -  # 33
+100011          - 35  -  # 34
+100100          - 36  -  # 35
+100101          - 37  -  # 36
+100110          - 38  -  # 37
+100111          - 39  -  # 38
+101000          - 40  -  # 39
+101001          - 41  -  # 40
+101010          - 42  -  # 41
+101011          - 43  -  # 42
+101100          - 44  -  # 43
+101101          - 45  -  # 44
+101110          - 46  -  # 45
+101111          - 47  -  # 46
+110000          - 48  -  # 47
+110001          - 49  -  # 48
+110010          - 50  -  # 49
+110011          - 51  -  # 50
+110100          - 52  -  # 51
+110101          - 53  -  # 52
+110110          - 54  -  # 53
+110111          - 55  -  # 54
+111000          - 56  -  # 55
+111001          - 57  -  # 56
+111010          - 58  -  # 57
+111011          - 59  -  # 58
+111100          - 60  -  # 59
+111101          - 61  -  # 60
+111110          - 62  - not allowed
+111111          - 63  - not allowed

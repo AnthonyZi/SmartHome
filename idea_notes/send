@@ -1,0 +1,4 @@
+sendbit(bool value)
+        switch(value)
+                case 0:
+                        

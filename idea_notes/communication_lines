@@ -1,0 +1,147 @@
+(1) -> (2) :    information from (1) to (2)
+** (1)          device (1) is listening on 433mhz
+ID :            DEVICE ID encoded
+PACK :          personal ACKNOWLEDGEMENT // same code has to come back
+DATA :          information to send
+RAND :          random generated time for wait
+RSDATA :        REMOTE SWITCH DATA
+
+
+signals :
+
+////predefined and unchangeable because of hardware specs////
+|---            0 - remote switch       1500µs  | unit 375µs
+|||-            1 - remote switch       1500µs
+Sequence:       25 bit                  37.5ms
+Signal:         4x25 bit (10ms pause)   180ms
+
+
+
+////idea for a flexible protocol best fitting the general idea  ////
+////concept is a minum occupancy of the 433mhz band             ////
+////nevertheless ensuring that everything is handled properly   ////
+////handshakes shall help to ensure no data-loss                ////
+////intelligent backthrowing of polling info                      //
+//- helps preventing a busy line with infite-loop-states or       //
+//- other undefined states                                      ////
+-----------------------
+protocol "smarthome 1": //fast! - error rate?
+sending-side:
+-||-            0 - smart home tx       400µs   | unit 100µs
+-||||||||-      1 - smart home tx       800µs   | unit 100µs
+Sequnce:        16 bit                  6.4ms - 12.8ms
+receiving-side: (only high-durations measured)
+||              0 - smart home rx       200µs   | unit 100µs
+||||||||        1 - smart home rx       800µs   | unit 100µs
+        -> 200µs time left to analyse high-duration and check for code
+-----------------------
+protocol "smarthome 2": //better error rate(?)! - slow?
+sending-side:
+--||||--                0 - smart home tx       800µs   | unit 100µs
+--||||||||||||--        1 - smart home tx       1600µs   | unit 100µs
+Sequnce:        16 bit                  12.8ms - 25.6ms
+receiving-side: (only high-durations measured)
+||||              0 - smart home rx       400µs   | unit 100µs
+||||||||||||      1 - smart home rx       1200µs  | unit 100µs
+        -> 400µs time left to analyse high-duration and check for code
+
+
+### see coding-ideas for the 16 bit approach ###
+mistakes, that can occur during transmission of bitstreams:
+(protocol smarthome 1)
+II (to much); .. (absence) <- mistakes
+TIME-DOMAIN     ->              ->      possible handling
+---------------------------------------------------------
+-||II-          -> extension    ->      prediction to 0   
+-|.-            -> contraction  ->      prediction to 0
+-|||||...-      -> contraction  ->      prediction to 1
+-||||||||III-   -> extension    ->      prediction to 1
+----            -> pause extens ->      as if nothing wrong happend
+                                        just wait
+-------         -> undef pause  ->      assumption of error
+                   too long pause       catch within read/listening func
+-||||||||IIIII- -> overextens   ->      stream error -> as if no data!
+                   maybe overlapping    catch within read/listening func
+                   of two signals       
+.               -> full absence ->      no stream
+                   of a signal          catch within read/listening func
+
+mistakes that cannot be corrected with code
+-||III-         -> overextens   ->      prediction to 1
+                                        error cannot be handled properly
+-|||.....-      -> overcontract ->      prediction to 0
+                                        error cannot be handled properly
+
+
+
+PSEUDE-CODES
+##############################
+##############################
+sensor  -> pi
+##############################
+sensoractive:
+        if signal
+                do //insisting for response
+                        send ID+DATA
+                        wait PACK || WAIT
+                while waiting-timeout
+        return
+
+wait PACK || WAIT:
+        if listen==PACK
+                return jobdone!
+        if listen==undefined or THROWBACKMSG // collision
+                             // throwback to cause silence
+                sleep TIME+RAND // TIME+ (pi wants silence?)
+
+listen:
+        do
+                bit = readbit;
+                if bit == -1
+                        empty buffer
+                        return -1
+                else
+                        leftshift buffer & bit
+        while buffer != PACK/THROWBACKMSG
+        return buffer->0/1
+
+readbit:
+        read duration active-state (if not successfull return -1)
+                                // if looong time exceeded->no success
+        -> long         -> return 1
+        -> short        -> return 0
+
+
+##############################
+##############################
+pi -> remote_switch
+##############################
+decisiontoswitch:
+        send broadcast_throwback //reserved signal
+        send broadcast_throwback //twice
+                                 //all active listeners invoke a
+                                 //undefined-return and wait TIME+
+        send RSDATA
+
+
+##############################
+##############################
+** pi/receiver_avr // avr shall handle pending reading
+                   // to ensure that no busy waiting falsify reading
+##############################
+listen-loop:
+        do
+                bit = readbit;
+                if bit == -1
+                        empty buffer
+                else
+                        leftshift buffer & bit
+        while buffer != knownSequence
+        handleevent(buffer) //invoke function to handle event
+
+readbit:
+        read two active-states (if not successfull return -1)
+                                // if looongperiod exceeded->no success
+        -> one is long          -> return 1
+        -> two are long         -> return 1
+        -> both are short       -> return 0
