@@ -1,0 +1,51 @@
+Circuit: * Z:\home\zmann\git\SmartHome\Relais_Plug_Switch.asc
+
+Warning: Multiple definitions of model "bc817-16" Type: BJT
+Warning: Multiple definitions of model "bc848b" Type: BJT
+Warning: Multiple definitions of model "bc807-16" Type: BJT
+Warning: Multiple definitions of model "bc858b" Type: BJT
+Warning: Multiple definitions of model "bc856b" Type: BJT
+Warning: Multiple definitions of model "bc556b" Type: BJT
+Warning: Multiple definitions of model "bc846b" Type: BJT
+Warning: Multiple definitions of model "bc546b" Type: BJT
+Warning: Multiple definitions of model "bc807-40" Type: BJT
+Warning: Multiple definitions of model "bc807-25" Type: BJT
+Warning: Multiple definitions of model "bc857c" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc857a" Type: BJT
+Warning: Multiple definitions of model "bc557c" Type: BJT
+Warning: Multiple definitions of model "bc557b" Type: BJT
+Warning: Multiple definitions of model "bc817-40" Type: BJT
+Warning: Multiple definitions of model "bc817-25" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Warning: Multiple definitions of model "bc847a" Type: BJT
+Warning: Multiple definitions of model "bc547c" Type: BJT
+Warning: Multiple definitions of model "bc547b" Type: BJT
+Warning: Multiple definitions of model "bcw68g" Type: BJT
+Warning: Multiple definitions of model "bcw68f" Type: BJT
+Warning: Multiple definitions of model "bcw60d" Type: BJT
+Warning: Multiple definitions of model "bcw60c" Type: BJT
+Warning: Multiple definitions of model "bcw60b" Type: BJT
+Warning: Multiple definitions of model "bcw60a" Type: BJT
+Limiting rise time of source v1 to 0.05
+Limiting fall time of source v1 to 0.05
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Mar 28 14:04:31 2018
+Total elapsed time: 0.078 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7940
+traniter = 7934
+tranpoints = 3916
+accept = 2469
+rejected = 1447
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 256 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 624 bytes object code size  0.2/0.2/[0.2]
+
