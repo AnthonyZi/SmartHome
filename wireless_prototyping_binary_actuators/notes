@@ -88,3 +88,9 @@
 # | 0 10 00 10 10 00 | 00 10 10 10 |  111110  |
 # ---------------------------------------------
 ###############################################################################
+#
+# compile c-function to be usable in python code because time-critical
+# AM_Sender is too slow with time.sleep(s) in python
+# http://www.swig.org/tutorial.html
+#
+###############################################################################
