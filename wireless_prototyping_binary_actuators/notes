@@ -1,0 +1,90 @@
+###############################################################################
+# Protocol:
+# use the same communication-protocol as the AB440S Wireless Switch Unit by ELRO
+# This allows to have a unique protocol for the remote switches and selfmade
+# binary actuators
+#
+# ELRO-Protocol:
+#
+# Binary-encoding:
+# 0 :     375µs HI, 1125µs LOW
+# 1 :    1125µs HI,  375µs LOW
+#
+#
+# The Transmitter sends 3 redundant packages containing the signal.
+# Finally the Transmitter sends 1 package with an end-sequence
+# The time between the Packages is round about 10ms
+# The whole Packe Traffic looks like this:
+#
+# ------------------------
+# | ADDR | CHANNEL | SIG |
+# ------------------------
+# | ADDR | CHANNEL | SIG |
+# ------------------------
+# | ADDR | CHANNEL | SIG |
+# ------------------------
+# | ADDR | CHANNEL | END |
+# ------------------------
+#
+# ADDR :
+#     The code which is set to link transmitter and receiver
+# CHANNEL :
+#     The channel (A|B|C|D) which shall be set (ON|OFF)
+# SIG :
+#     The signal wich determines information (ON and OFF)
+# END :
+#     A fixed CODE inducing the end of the communication
+#
+#
+#
+# Protocol binary encoding:
+# 0 -> see above (375µs HI, 1125µs LOW)
+# 1 -> see above
+# ADDR :
+#     e.g. 10110
+#     same as the code set with hardware switches in transmitter and receiver for 12345
+# CHANNEL :
+#     CODE = (1<<3) for C
+#     A   : 0111
+#     B   : 1011
+#     C   : 1101
+#     D   : 1110
+# SIG :
+#     ON  : 101
+#     OFF : 110
+# END :
+#     not interpretable as Binary encoding
+#
+#
+# Protocol in Hardware-Layer:
+# ----------------------------
+# | 0ADDR | CHANNEL |  SIG   |
+# ----------------------------
+# | 0ADDR | CHANNEL |  SIG   |
+# ----------------------------
+# | 0ADDR | CHANNEL |  SIG   |
+# ----------------------------
+# | 0ADDR | CHANNEL | 111110 |
+# ----------------------------
+#
+# As you can see a 0 prepends each block and the END-code is a fixed sequence
+# ADDR, CHANNEL and SIG correspond to the binary-encoded protocol
+# (e.g. 0 : 375µs HI, 1125µs LOW) as above but with a 0 following each digit.
+# e.g.:
+# ON : 101 -> 10 00 10
+#
+# example of a full protocol on hardware-layer:
+# ADDR : 10110
+# CHANNEL : A -> 0111
+# SIGNAL: ON -> 101
+#
+# ---------------------------------------------
+# | 0 10 00 10 10 00 | 00 10 10 10 | 10 00 10 |
+# ---------------------------------------------
+# | 0 10 00 10 10 00 | 00 10 10 10 | 10 00 10 |
+# ---------------------------------------------
+# | 0 10 00 10 10 00 | 00 10 10 10 | 10 00 10 |
+# ---------------------------------------------
+# | 0 10 00 10 10 00 | 00 10 10 10 |  111110  |
+# ---------------------------------------------
+###############################################################################
