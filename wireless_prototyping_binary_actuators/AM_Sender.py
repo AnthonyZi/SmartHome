@@ -8,7 +8,7 @@ class AM_Sender(object):
 
 
     def send(self, sig1, sig2, sig2_end):
-        args = ["./gpio_send", str(self.pin), self.id_signal, sig1, sig2, sig2_end]
+        args = ["./gpio_am_send", str(self.pin), self.id_signal, sig1, sig2, sig2_end]
         subprocess.call(args)
 
 

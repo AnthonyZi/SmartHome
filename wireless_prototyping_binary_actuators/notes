@@ -89,8 +89,11 @@
 # ---------------------------------------------
 ###############################################################################
 #
-# compile c-function to be usable in python code because time-critical
-# AM_Sender is too slow with time.sleep(s) in python
-# http://www.swig.org/tutorial.html
+# c-code used to manage time-critical part of pin-toggling for the Transmitter
+# pin_toggling may be too slow with time.sleep(s) in python
+# gpio_am_send.c fullfills all principles of the Protocol for elro remote
+# switches -> compile this to an executable gpio_am_send which is called by
+# the python wrapper AM_Sender.py
+# compile with -lwiringPi
 #
 ###############################################################################
