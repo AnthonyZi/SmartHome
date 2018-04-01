@@ -27,5 +27,5 @@ class RSC_Sender(AM_Sender):
 
 
 if __name__ == "__main__":
-    sender1 = RSC_Sender(1, "10110")
-    sender1.send("A","ON")
+    sender1 = RSC_Sender(1, "00000")
+    sender1.send("A","OFF")
