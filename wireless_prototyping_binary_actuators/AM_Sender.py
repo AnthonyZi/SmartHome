@@ -28,5 +28,10 @@ class RSC_Sender(AM_Sender):
 
 if __name__ == "__main__":
     import time
-    s = RSC_Sender(1, "10110")
-    s.send("A","ON")
+    s1 = RSC_Sender(1, "10110")
+    s2 = RSC_Sender(1, "00000")
+    s1.send("B","ON")
+    s2.send("A","ON")
+    time.sleep(1)
+    s1.send("B","OFF")
+    s2.send("A","OFF")
