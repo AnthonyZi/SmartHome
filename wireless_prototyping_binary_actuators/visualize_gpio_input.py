@@ -1,9 +1,13 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.signal as scisig
+import sys
 
 if __name__ == "__main__":
-    with open("gpio_input.txt", "r") as f:
+
+    fname = sys.argv[1]
+
+    with open(fname, "r") as f:
         lines = f.readlines()
     l = lines[0]
     y = [0 if c == "0" else 1 for c in l]
