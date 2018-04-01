@@ -27,6 +27,7 @@ class RSC_Sender(AM_Sender):
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD:wireless_prototyping_binary_actuators/AM_Sender.py
     import time
     sender1 = RSC_Sender(1, "10110")
     for i in range(100):
@@ -34,3 +35,7 @@ if __name__ == "__main__":
         time.sleep(2)
         sender1.send("B","OFF")
         time.sleep(2)
+=======
+    sender1 = RSC_Sender(1, "00000")
+    sender1.send("A","OFF")
+>>>>>>> fe034ebfe7638a0bdac40d4b1b20bb309bfc64ec:wireless_prototyping_binary_actuators/remote_switch_control.py
