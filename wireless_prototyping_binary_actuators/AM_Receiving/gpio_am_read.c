@@ -29,9 +29,11 @@ typedef struct dataInterpreters
 SmoothReceiver init_SmoothReceiver()
 {
     SmoothReceiver sr;
-    sr.data = (uint8_t*)malloc(sizeof(uint8_t)*256);
+//    sr.data = (uint8_t*)malloc(sizeof(uint8_t)*256);
+    sr.data = calloc(256,sizeof(uint8_t));
     sr.doff = 0;
-    sr.vals = (uint8_t*)malloc(sizeof(uint8_t)*256);
+//    sr.vals = (uint8_t*)malloc(sizeof(uint8_t)*256);
+    sr.vals = calloc(256,sizeof(uint8_t));
     sr.voff = 0;
     return sr;
 }
@@ -39,9 +41,11 @@ SmoothReceiver init_SmoothReceiver()
 DataInterpreter init_DataInterpreter()
 {
     DataInterpreter di;
-    di.data = (uint8_t*)malloc(sizeof(uint8_t)*256);
+//    di.data = (uint8_t*)malloc(sizeof(uint8_t)*256);
+    di.data= calloc(256,sizeof(uint8_t));
     di.doff = 0;
-    di.vals = (uint8_t*)malloc(sizeof(uint8_t)*256);
+//    di.vals = (uint8_t*)malloc(sizeof(uint8_t)*256);
+    di.vals = calloc(256,sizeof(uint8_t));
     di.voff = 0;
 
     di.mode = 0;
@@ -53,14 +57,16 @@ DataInterpreter init_DataInterpreter()
 void smoothRead(SmoothReceiver *sr, int pin)
 {
     *(sr->data+(sr->doff++)) = (uint8_t)digitalRead(pin);
-    int v;
+    int v = 0;
     uint8_t p = sr->doff;
     for(uint8_t i = 0; i<10; i++)
     {
         p--;
-        v += *(sr->data+p);
+        v += *((sr->data)+p);
     }
-    *(sr->vals+(sr->voff++)) = v/5;
+    *((sr->vals)+(sr->voff++)) = (v-1)/5;
+//    *(sr->vals+(sr->voff++)) = *((sr->data)+(sr->doff-1));
+//    *(sr->vals+(sr->voff++)) = p;
 }
 
 void read(int pin)
@@ -73,12 +79,12 @@ void read(int pin)
     fp2 = fopen("fp2", "wb");
 
     int c = 0;
-    while(c<200000)
+    while(c<100000)
     {
         c++;
         smoothRead(&sr, pin);
-        fprintf(fp1, "%d", *(sr.data+sr.doff-1));
-        fprintf(fp2, "%d", *(sr.vals+sr.voff-1));
+        fprintf(fp1, "%d ", *(sr.data+sr.doff-1));
+        fprintf(fp2, "%d ", *(sr.vals+sr.voff-1));
         delayMicroseconds(10);
     }
     fclose(fp1);
