@@ -61,7 +61,7 @@ void smoothRead(SmoothReceiver *sr, int pin)
     uint8_t p = sr->doff;
     for(uint8_t i = 0; i<19; i++)
     {
-        p--;
+        p = (uint8_t)(p-1);
         v += *((sr->data)+p);
     }
     *((sr->vals)+(sr->voff++)) = v/10;
