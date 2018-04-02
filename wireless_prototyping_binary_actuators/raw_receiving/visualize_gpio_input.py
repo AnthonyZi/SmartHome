@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     y = np.array(y)
 
-    k_size = 100
+    k_size = 10
     kernel = np.ones(k_size)
     y = scisig.convolve(y,kernel)
     y = np.where(y>(k_size/2),1,0)
