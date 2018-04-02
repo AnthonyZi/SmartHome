@@ -59,12 +59,12 @@ void smoothRead(SmoothReceiver *sr, int pin)
     *(sr->data+(sr->doff++)) = (uint8_t)digitalRead(pin);
     int v = 0;
     uint8_t p = sr->doff;
-    for(uint8_t i = 0; i<10; i++)
+    for(uint8_t i = 0; i<19; i++)
     {
         p--;
         v += *((sr->data)+p);
     }
-    *((sr->vals)+(sr->voff++)) = v/5;
+    *((sr->vals)+(sr->voff++)) = v/10;
 //    *(sr->vals+(sr->voff++)) = *((sr->data)+(sr->doff-1));
 //    *(sr->vals+(sr->voff++)) = p;
 }
