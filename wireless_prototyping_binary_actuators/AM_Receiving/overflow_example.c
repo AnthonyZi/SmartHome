@@ -3,39 +3,43 @@
 #include <string.h>
 #include <stdio.h>
 
-int main(int argc, char** argv)
+typedef struct tests
 {
-    uint8_t *p1;
-    uint8_t *p2;
+    uint8_t *dat;
+    uint8_t doff;
+} Test;
 
-    uint8_t p1off;
-    uint8_t p2off;
-
-    p1 = calloc(256, sizeof(uint8_t));
-    p2 = calloc(256, sizeof(uint8_t));
-
-    p1off = 0;
-    p2off = 0;
-
-    int v = 0;
-    uint8_t p = p1off;
+void testing(Test *t)
+{
+    uint8_t p = t->doff;
     for(uint16_t i = 0; i<300; i++)
     {
-        *(p1+p1off) = p1off++;
-        printf("%d ", *(p1+p1off));
+        *((t->dat)+(t->doff)) = t->doff++;
+        printf("%d ", *((t->dat)+(t->doff)));
     }
 
     printf("\n");
     for(uint16_t i = 0; i<256; i++)
     {
-        printf("%d ", *(p1+i));
+        printf("%d ", *((t->dat)+i));
     }
 
     printf("\n");
     p = 0;
     for(uint8_t i = 0; i<19; i++)
     {
-        printf("%d ", *(p1+p));
+        printf("%d ", *((t->dat)+p));
         p--;
     }
+
+}
+
+int main(int argc, char** argv)
+{
+    Test p1;
+
+    p1.dat = calloc(256, sizeof(uint8_t));
+    p1.doff = 0;
+
+    testing(&p1);
 }
