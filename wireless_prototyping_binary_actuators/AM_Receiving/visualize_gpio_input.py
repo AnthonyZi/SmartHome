@@ -20,9 +20,12 @@ if __name__ == "__main__":
 
     y1 = np.array(y1)
     y2 = np.array(y2)
+    print(y1[:1000])
+    print(y2[:1000])
 
-    x = np.arange(y.shape[0])
+    x1 = np.arange(y1.shape[0])
+    x2 = np.arange(y2.shape[0])
 
-    plt.plot(x,y1)
-    plt.plot(x,y2)
+    plt.plot(x1,y1)
+    plt.plot(x2,y2)
     plt.show()
