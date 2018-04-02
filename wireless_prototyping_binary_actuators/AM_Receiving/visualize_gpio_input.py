@@ -12,20 +12,19 @@ if __name__ == "__main__":
         lines1 = f.readlines()
     with open(f2, "r") as f:
         lines2 = f.readlines()
-    l1 = lines1[0]
-    l2 = lines2[0]
+
+    l1 = lines1[0].replace(" ", "")
+    l2 = lines2[0].replace(" ", "")
 
     y1 = [0 if c == "0" else 1 for c in l1]
     y2 = [0 if c == "0" else 1 for c in l2]
 
     y1 = np.array(y1)
     y2 = np.array(y2)
-    print(y1[:1000])
-    print(y2[:1000])
 
     x1 = np.arange(y1.shape[0])
     x2 = np.arange(y2.shape[0])
 
-    plt.plot(x1,y1)
-    plt.plot(x2,y2)
+    plt.plot(x1,y1, 'g')
+    plt.plot(x2,y2, 'r')
     plt.show()
