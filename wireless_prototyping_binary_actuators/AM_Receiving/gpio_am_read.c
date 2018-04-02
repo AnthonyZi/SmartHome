@@ -64,7 +64,7 @@ void smoothRead(SmoothReceiver *sr, int pin)
         p--;
         v += *((sr->data)+p);
     }
-    *((sr->vals)+(sr->voff++)) = (v-1)/5;
+    *((sr->vals)+(sr->voff++)) = v/5;
 //    *(sr->vals+(sr->voff++)) = *((sr->data)+(sr->doff-1));
 //    *(sr->vals+(sr->voff++)) = p;
 }
