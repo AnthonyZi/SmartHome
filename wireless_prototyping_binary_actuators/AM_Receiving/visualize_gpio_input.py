@@ -13,14 +13,20 @@ if __name__ == "__main__":
     with open(f2, "r") as f:
         lines2 = f.readlines()
 
-    l1 = lines1[0].replace(" ", "")
-    l2 = lines2[0].replace(" ", "")
+    y1 = lines1[0].split(" ")
+    y2 = lines2[0].split(" ")
 
-    y1 = [0 if c == "0" else 1 for c in l1]
-    y2 = [0 if c == "0" else 1 for c in l2]
+    y1 = [c for c in y1 if not c == ""]
+    y2 = [c for c in y2 if not c == ""]
 
-    y1 = np.array(y1)
-    y2 = np.array(y2)
+    y1 = np.array(y1).astype(int)
+    y2 = np.array(y2).astype(int)
+
+    y1 = y1
+    y2 = y2/5
+
+    y1 = np.array(y1).astype(int)
+    y2 = np.array(y2).astype(int)
 
     x1 = np.arange(y1.shape[0])
     x2 = np.arange(y2.shape[0])
