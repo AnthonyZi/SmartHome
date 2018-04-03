@@ -64,8 +64,6 @@ void smoothRead(SmoothReceiver *sr, int pin)
         v += *((sr->data)+p);
     }
     *((sr->vals)+(sr->voff++)) = v;
-//    *(sr->vals+(sr->voff++)) = *((sr->data)+(sr->doff-1));
-//    *(sr->vals+(sr->voff++)) = p;
 }
 
 void read(int pin)
@@ -82,8 +80,10 @@ void read(int pin)
     {
         c++;
         smoothRead(&sr, pin);
-        fprintf(fp1, "%d ", *(sr.data+sr.doff-1));
-        fprintf(fp2, "%d ", *(sr.vals+sr.voff-1));
+        uint8_t doff = sr.doff-1;
+        uint8_t voff = sr.voff-1;
+        fprintf(fp1, "%d ", *(sr.data+doff));
+        fprintf(fp2, "%d ", *(sr.vals+voff));
         delayMicroseconds(10);
     }
     fclose(fp1);
