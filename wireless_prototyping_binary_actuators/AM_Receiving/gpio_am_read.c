@@ -11,6 +11,9 @@ typedef struct smoothReceivers
     uint8_t doff;
     uint8_t* vals;
     uint8_t voff;
+
+    uint8_t window_size;
+    uint8_t thresh;
 } SmoothReceiver;
 
 typedef struct dataInterpreters
@@ -34,6 +37,9 @@ SmoothReceiver init_SmoothReceiver()
 //    sr.vals = (uint8_t*)malloc(sizeof(uint8_t)*256);
     sr.vals = calloc(256,sizeof(uint8_t));
     sr.voff = 0;
+
+    sr.window_size = 9;
+    sr.thresh = 5;
     return sr;
 }
 
@@ -58,12 +64,12 @@ void smoothRead(SmoothReceiver *sr, int pin)
     *(sr->data+(sr->doff++)) = (uint8_t)digitalRead(pin);
     int v = 0;
     uint8_t p = sr->doff;
-    for(uint8_t i = 0; i<19; i++)
+    for(uint8_t i = 0; i<sr->window_size; i++)
     {
         p = (uint8_t)(p-1);
         v += *((sr->data)+p);
     }
-    *((sr->vals)+(sr->voff++)) = v;
+    *((sr->vals)+(sr->voff++)) = v/sr->thresh;
 }
 
 void read(int pin)
