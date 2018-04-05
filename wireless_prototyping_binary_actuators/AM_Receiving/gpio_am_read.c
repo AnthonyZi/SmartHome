@@ -9,8 +9,6 @@ typedef struct smoothReceivers
 {
     uint8_t* data;
     uint8_t doff;
-//    uint8_t* vals;
-//    uint8_t voff;
     uint8_t current_level;
     uint16_t counter;
     uint16_t last_length;
@@ -23,7 +21,7 @@ typedef struct smoothReceivers
 SmoothReceiver init_SmoothReceiver()
 {
     SmoothReceiver sr;
-    sr.data = calloc(256,sizeof(uint8_t));
+    sr.data = (uint8_t*)calloc(256,sizeof(uint8_t));
     sr.doff = 0;
 
     sr.current_level = 0;
@@ -40,29 +38,31 @@ typedef struct bitcodes
 {
     uint8_t* data;
     uint16_t length;
+    uint16_t bit_transfer_length;
 } Bitcode;
 
 Bitcode init_Bitcode()
 {
     Bitcode bc;
-    bc.data = calloc(10000,sizeof(uint8_t));
+    bc.data = (uint8_t*)calloc(10000,sizeof(uint8_t));
     bc.length = 0;
+    bc.bit_transfer_length = 118;
     return bc;
 }
 
-typedef struct signalcodes
-{
-    uint8_t* data;
-    uint16_t length;
-} Signalcode;
-
-Signalcode init_Signalcode()
-{
-    Signalcode sc;
-    sc.data = calloc(10000,sizeof(uint8_t));
-    sc.length = 0;
-    return sc;
-}
+//typedef struct signalcodes
+//{
+//    uint8_t* data;
+//    uint16_t length;
+//} Signalcode;
+//
+//Signalcode init_Signalcode()
+//{
+//    Signalcode sc;
+//    sc.data = calloc(10000,sizeof(uint8_t));
+//    sc.length = 0;
+//    return sc;
+//}
 
 
 // reads data into a buffer and realises a fir filter to smoothen readings
@@ -93,31 +93,42 @@ uint8_t smoothRead(SmoothReceiver *sr, int pin)
     }
 }
 
-Signalcode decode(Bitcode *bc)
-{
-    Signalcode sc = init_Signalcode();
-    for(uint16_t i = 1; i<bc->length; i+=2)
-        *(sc.data+sc.length++) = *(bc->data+i);
-    return sc;
-}
+//Signalcode decode(Bitcode *bc)
+//{
+//    Signalcode sc = init_Signalcode();
+//    for(uint16_t i = 1; i<bc->length; i+=2)
+//        *(sc.data+sc.length++) = *(bc->data+i);
+//    return sc;
+//}
 
-Bitcode read(int pin)
+void read(Bitcode *bc, int pin, int package_number)
 {
     SmoothReceiver sr = init_SmoothReceiver();
-    Bitcode bc = init_Bitcode();
-    FILE *fp1;
-    fp1 = fopen("fp1", "wb");
 
     // wait until first level-change (low to high because SmoothReader is initialised with current_level = 0)
-    while(!smoothRead(&sr, pin));
+//    if(package_number == 0)
+    if(1)
+        while(!smoothRead(&sr, pin));
+    else
+    {
+        int return_timer = 10*bc->bit_transfer_length;
+        while(!smoothRead(&sr, pin) && return_timer--);
+        if(return_timer <= 0)
+            return;
+    }
+
+    FILE *fp;
+    char fname[10];
+    sprintf(fname, "fp_%d", package_number);
+    fp = fopen(fname, "wb");
 
     uint8_t lvl_change;
     uint16_t onlength;
     uint8_t bitcounter = 0;
-    uint16_t breakpause = 1000;
+    uint16_t breakpause = 500;
     while(1)
     {
-        fprintf(fp1, "%d ", sr.current_level);
+        fprintf(fp, "%d ", sr.current_level);
         lvl_change = smoothRead(&sr, pin);
         //if lvl_change read out how long level was hold
         if(lvl_change)
@@ -126,22 +137,73 @@ Bitcode read(int pin)
                 onlength = sr.last_length;
             else
             {
-                *((bc.data)+(bc.length)) = onlength > sr.last_length;
-                breakpause = *((bc.data)+(bc.length++)) ? 4*onlength : 4*sr.last_length;
+                *((bc->data)+(bc->length++)) = onlength > sr.last_length;
+//                bc->bit_transfer_length = onlength + sr.last_length;
+                if(bc->length>=24)
+                {
+                    fclose(fp);
+                    return;
+                }
             }
             bitcounter %= 2;
         }
-//        delayMicroseconds(5);
+        delayMicroseconds(5);
 
-        if(sr.counter > breakpause)
-            break;
+//        if(sr.counter > 2*bc->bit_transfer_length)
+//            break;
     }
 
-    fclose(fp1);
-
+    fclose(fp);
     free(sr.data);
-    return bc;
 }
+
+void elro_read(int pin)
+{
+    uint8_t num_packages = 8;
+
+    Bitcode **bcs = (Bitcode**)calloc(num_packages, sizeof(Bitcode*));
+    for(uint8_t i = 0; i<num_packages; i++)
+    {
+        *(bcs+i) = (Bitcode*)calloc(1,sizeof(Bitcode));
+        **(bcs+i) = init_Bitcode();
+    }
+
+//    Signalcode *scs = calloc(num_packages, sizeof(Signalcode));
+
+    while(1)
+    {
+        read(*(bcs), pin, 0);
+        printf("bit_transfer_length: %d\n", bcs[0]->bit_transfer_length);
+        for(uint8_t i = 1; i<num_packages; i++)
+        {
+            (bcs[i])->bit_transfer_length = (bcs[i-1])->bit_transfer_length;
+            read(*(bcs+i), pin, i);
+            printf("bit_transfer_length: %d\n", bcs[i]->bit_transfer_length);
+        }
+
+        printf("read 8 packages\n");
+
+//        for(uint8_t i = 0; i<num_packages; i++)
+//            scs[i] = decode(bcs[i]);
+
+        for(uint8_t i = 0; i<num_packages; i++)
+        {
+            printf("%d - ", bcs[i]->length);
+            for(uint16_t j = 0; j<bcs[i]->length; j++)
+                printf("%d", *((bcs[i]->data)+j));
+            printf("\n");
+        }
+        printf("\n");
+        break;
+    }
+
+    for(uint8_t i = 0; i<num_packages; i++)
+        free(bcs[i]);
+    printf("\n");
+    free(bcs);
+//    free(scs);
+}
+
 
 int main(int argc, char** argv)
 {
@@ -149,29 +211,7 @@ int main(int argc, char** argv)
     wiringPiSetup();
     pinMode(pin, INPUT);
 
-    Bitcode *bcs = calloc(8,sizeof(Bitcode));
-    Signalcode *scs = calloc(8,sizeof(Signalcode));
-    while(1)
-    {
-        for(uint8_t i = 0; i<8; i++)
-            bcs[i] = read(pin);
-
-        for(uint8_t i = 0; i<8; i++)
-            scs[i] = decode(&(bcs[i]));
-
-        for(uint8_t i = 0; i<8; i++)
-        {
-            printf("%d - ", scs[i].length);
-            if(scs[i].length != 12)
-            {
-                printf("\n");
-                break;
-            }
-            for(uint16_t j = 0; j<scs[i].length; j++)
-                printf("%d", *((scs[i].data)+j));
-            printf("\n");
-        }
-    }
+    elro_read(pin);
 
     return 0;
 }
