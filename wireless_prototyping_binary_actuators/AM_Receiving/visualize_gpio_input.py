@@ -24,4 +24,4 @@ if __name__ == "__main__":
         print(f)
         plt.figure()
         plt.plot(x,y, 'g')
-        plt.show()
+    plt.show()
