@@ -191,7 +191,7 @@ void read(Bitcode *bc, int pin, int package_number)
 
 void elro_read(int pin)
 {
-    uint8_t num_packages = 8;
+    uint8_t num_packages = 8; // 8 is maybe average number of packages sent but more is better if you want to increase performance for long-pressing
 
     Bitcode **bcs = (Bitcode**)calloc(num_packages, sizeof(Bitcode*));
     for(uint8_t i = 0; i<num_packages; i++)
