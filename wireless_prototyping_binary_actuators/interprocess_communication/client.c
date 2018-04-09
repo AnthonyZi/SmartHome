@@ -1,8 +1,32 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h> //for exit(0);
 #include <sys/socket.h>
+#include <errno.h> //For errno - the error number
+#include <netdb.h>   //hostent
 #include <arpa/inet.h>
 #include <unistd.h>
+
+int hostname_to_ip(char* hostname, char* ip)
+{
+    struct hostent *he;
+    struct in_addr **addr_list;
+    int i;
+
+    if ( (he = gethostbyname( hostname ) ) == NULL)
+    {
+        herror("gethostbyname");
+        return 1;
+    }
+
+    addr_list = (struct in_addr**) he->h_addr_list;
+
+    for(i = 0; addr_list[i] != NULL; i++)
+    {
+        strcpy(ip, inet_ntoa(*addr_list[i]) );
+        return 0;
+    }
+}
 
 int main(int argc, char *argv[])
 {
@@ -14,9 +38,11 @@ int main(int argc, char *argv[])
         printf("Could not create socket");
     puts("Socket created");
 
-    server.sin_addr.s_addr = inet_addr("127.0.0.1");
+    char host_ip[100];
+    hostname_to_ip("00anthony.chickenkiller.com", host_ip);
+    server.sin_addr.s_addr = inet_addr(host_ip);
     server.sin_family = AF_INET;
-    server.sin_port = htons(8888);
+    server.sin_port = htons(3347);
 
     if(connect(sock, (struct sockaddr*)&server, sizeof(server)) < 0)
     {
