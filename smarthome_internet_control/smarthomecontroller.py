@@ -17,14 +17,14 @@ class SmartHomeControl(threading.Thread):
 
         self.states["light_main"] = "off"
         self.states["light_table"] = "off"
-        self.states["radio_ac"] = "off"
+        self.states["radio"] = "off"
 
         self.state_change_time["light_main"] = 0
         self.state_change_time["light_table"] = 0
-        self.state_change_time["radio_ac"] = 0
+        self.state_change_time["radio"] = 0
 
         self.rsc1 = AM_Send.RSC_Sender(1, "10110", "AM_Sending")
-        self.radio = MPlayerControl(music="http://mp3.antenneac.c.nmdn.net/ps-antenneac/livestream.mp3")
+        self.radio = pymplayer.MPlayerControl(music="http://mp3.antenneac.c.nmdn.net/ps-antenneac/livestream.mp3")
 
 
     def run(self):
@@ -65,7 +65,7 @@ class SmartHomeControl(threading.Thread):
                         self.rsc1.send("B", istate.upper())
                     else:
                         return False
-                elif(idevice == "radio_ac"):
+                elif(idevice == "radio"):
                     if(istate in ["on", "off"]):
                         self.states[idevice] = istate
                         if istate == "on":
