@@ -39,10 +39,11 @@ int main(int argc, char *argv[])
     puts("Socket created");
 
     char host_ip[100];
-    hostname_to_ip("00anthony.chickenkiller.com", host_ip);
-    server.sin_addr.s_addr = inet_addr(host_ip);
+//    hostname_to_ip("00anthony.chickenkiller.com", host_ip);
+//    server.sin_addr.s_addr = inet_addr(host_ip);
+    server.sin_addr.s_addr = inet_addr("127.0.0.1");
     server.sin_family = AF_INET;
-    server.sin_port = htons(3347);
+    server.sin_port = htons(50000);
 
     if(connect(sock, (struct sockaddr*)&server, sizeof(server)) < 0)
     {
