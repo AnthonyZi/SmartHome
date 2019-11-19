@@ -1,0 +1,3697 @@
+--------------------
+RREQ: [14#41 -> 0#0], bID=1, 14 -> 7, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 14, 1, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 14 -> 13, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 14, 1, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 14 -> 17, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 14, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [14#41 -> 0#0], bID=1, 7 -> 1, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 7, 2, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 13 -> 10, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 13, 2, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 17 -> 13, h=2 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 7 -> 14, h=2 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 13 -> 14, h=2 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 17 -> 14, h=2 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 13 -> 17, h=2 DUPLICATE
+--------------------
+RREQ: [14#41 -> 0#0], bID=1, 1 -> 0, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 1, 3, 80]
+RREQ TARGET
+RREQ: [14#41 -> 0#0], bID=1, 1 -> 2, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 1, 3, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 10 -> 3, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 10, 3, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 10 -> 4, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 10, 3, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 1 -> 7, h=3 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 10 -> 13, h=3 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 1 -> 15, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 1, 3, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [14#41 -> 0#0], bID=1, 2 -> 0, h=4 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 3 -> 0, h=4 DUPLICATE
+RREP: [14#.. -> 0#59], 0 -> 1, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 0, 1, 80]
+FORWARD RREP
+RREQ: [14#41 -> 0#0], bID=1, 2 -> 1, h=4 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 15 -> 1, h=4 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 4 -> 3, h=4 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 3 -> 4, h=4 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 4 -> 5, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 4, 4, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 2 -> 6, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 2, 4, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 4 -> 8, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 4, 4, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 3 -> 10, h=4 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 4 -> 10, h=4 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 2 -> 11, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 2, 4, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 2 -> 18, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 2, 4, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 15 -> 18, h=4 DUPLICATE
+--------------------
+RREQ: [14#41 -> 0#0], bID=1, 6 -> 0, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 6 -> 2, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 11 -> 2, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 18 -> 2, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 5 -> 4, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 8 -> 4, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 11 -> 6, h=5 DUPLICATE
+RREP: [14#.. -> 0#59], 1 -> 7, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 1, 2, 80]
+FORWARD RREP
+RREQ: [14#41 -> 0#0], bID=1, 8 -> 9, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 8, 5, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 6 -> 11, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 18 -> 15, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 6 -> 20, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 6, 5, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 11 -> 20, h=5 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 18 -> 21, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 18, 5, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [14#41 -> 0#0], bID=1, 20 -> 6, h=6 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 9 -> 8, h=6 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 20 -> 11, h=6 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 9 -> 12, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 9, 6, 80]
+REBROADCAST RREQ
+RREP: [14#.. -> 0#59], 7 -> 14, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 7, 3, 80]
+RREQ INITIATOR
+RREQ: [14#41 -> 0#0], bID=1, 9 -> 16, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 9, 6, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 21 -> 18, h=6 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 21 -> 24, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 21, 6, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [14#.. -> 0#..], 7, <dummy_message14>
+RREQ: [14#41 -> 0#0], bID=1, 12 -> 9, h=7 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 16 -> 9, h=7 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 12 -> 19, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 12, 7, 80]
+REBROADCAST RREQ
+RREQ: [14#41 -> 0#0], bID=1, 24 -> 21, h=7 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 16 -> 22, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 16, 7, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [14#.. -> 0#..], 1, <dummy_message14>
+RREQ: [14#41 -> 0#0], bID=1, 19 -> 12, h=8 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 22 -> 16, h=8 DUPLICATE
+RREQ: [14#41 -> 0#0], bID=1, 19 -> 23, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 19, 8, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [14#.. -> 0#..], 0, <dummy_message14>
+RREQ: [14#41 -> 0#0], bID=1, 23 -> 19, h=9 DUPLICATE
+7 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+13 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+14 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+17 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+1 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+10 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+0 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+2 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+3 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+4 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+15 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+5 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+8 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+18 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+9 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+21 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+24 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+19 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:14,bID:1,dest0
+--------------------
+Pack: [1#.. -> 0#..], 0, <dummy_message1>
+--------------------
+RREQ: [21#76 -> 0#0], bID=1, 21 -> 18, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 21, 1, 80]
+REBROADCAST RREQ
+RREQ: [21#76 -> 0#0], bID=1, 21 -> 24, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 21, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [21#76 -> 0#0], bID=1, 18 -> 2, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 18, 2, 80]
+REBROADCAST RREQ
+RREQ: [21#76 -> 0#0], bID=1, 18 -> 15, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 18, 2, 80]
+REBROADCAST RREQ
+RREQ: [21#76 -> 0#0], bID=1, 18 -> 21, h=2 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 24 -> 21, h=2 DUPLICATE
+--------------------
+RREQ: [21#76 -> 0#0], bID=1, 2 -> 0, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 2, 3, 80]
+RREQ TARGET
+RREQ: [21#76 -> 0#0], bID=1, 2 -> 1, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 2, 3, 80]
+ANSWER RREQ with RREP
+RREQ: [21#76 -> 0#0], bID=1, 15 -> 1, h=3 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 2 -> 6, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 2, 3, 80]
+REBROADCAST RREQ
+RREQ: [21#76 -> 0#0], bID=1, 2 -> 11, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 2, 3, 80]
+REBROADCAST RREQ
+RREQ: [21#76 -> 0#0], bID=1, 2 -> 18, h=3 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 15 -> 18, h=3 DUPLICATE
+--------------------
+RREQ: [21#76 -> 0#0], bID=1, 6 -> 0, h=4 DUPLICATE
+RREP: [21#.. -> 0#59], 0 -> 2, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 0, 1, 80]
+FORWARD RREP
+RREP: [21#.. -> 0#59], 1 -> 2, h=2
+DUPLICATE RREP
+[59, 0, 1, 80] [59, 0, 1, 80]
+RREQ: [21#76 -> 0#0], bID=1, 6 -> 2, h=4 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 11 -> 2, h=4 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 11 -> 6, h=4 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 6 -> 11, h=4 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 6 -> 20, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [76, 6, 4, 80]
+REBROADCAST RREQ
+RREQ: [21#76 -> 0#0], bID=1, 11 -> 20, h=4 DUPLICATE
+--------------------
+RREQ: [21#76 -> 0#0], bID=1, 20 -> 6, h=5 DUPLICATE
+RREQ: [21#76 -> 0#0], bID=1, 20 -> 11, h=5 DUPLICATE
+RREP: [21#.. -> 0#59], 2 -> 18, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 2, 2, 80]
+FORWARD RREP
+--------------------
+RREP: [21#.. -> 0#59], 18 -> 21, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 18, 3, 80]
+RREQ INITIATOR
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+--------------------
+RREQ: [17#32 -> 0#0], bID=1, 17 -> 13, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 17, 1, 80]
+REBROADCAST RREQ
+RREQ: [17#32 -> 0#0], bID=1, 17 -> 14, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 17, 1, 80]
+ANSWER RREQ with RREP
+--------------------
+RREQ: [17#32 -> 0#0], bID=1, 13 -> 10, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 13, 2, 80]
+REBROADCAST RREQ
+RREQ: [17#32 -> 0#0], bID=1, 13 -> 14, h=2 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 13 -> 17, h=2 DUPLICATE
+RREP: [17#.. -> 0#59], 14 -> 17, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 14, 4, 80]
+RREQ INITIATOR
+--------------------
+RREQ: [17#32 -> 0#0], bID=1, 10 -> 3, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 10, 3, 80]
+REBROADCAST RREQ
+RREQ: [17#32 -> 0#0], bID=1, 10 -> 4, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 10, 3, 80]
+REBROADCAST RREQ
+RREQ: [17#32 -> 0#0], bID=1, 10 -> 13, h=3 DUPLICATE
+Pack: [17#.. -> 0#..], 14, <dummy_message17>
+--------------------
+RREQ: [17#32 -> 0#0], bID=1, 3 -> 0, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 3, 4, 80]
+RREQ TARGET
+RREQ: [17#32 -> 0#0], bID=1, 4 -> 3, h=4 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 3 -> 4, h=4 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 4 -> 5, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 4, 4, 80]
+REBROADCAST RREQ
+Pack: [17#.. -> 0#..], 7, <dummy_message17>
+RREQ: [17#32 -> 0#0], bID=1, 4 -> 8, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 4, 4, 80]
+REBROADCAST RREQ
+RREQ: [17#32 -> 0#0], bID=1, 3 -> 10, h=4 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 4 -> 10, h=4 DUPLICATE
+--------------------
+Pack: [17#.. -> 0#..], 1, <dummy_message17>
+RREP: [17#.. -> 0#59], 0 -> 3, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 0, 1, 80]
+FORWARD RREP
+RREQ: [17#32 -> 0#0], bID=1, 5 -> 4, h=5 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 8 -> 4, h=5 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 8 -> 9, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 8, 5, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [17#.. -> 0#..], 0, <dummy_message17>
+RREQ: [17#32 -> 0#0], bID=1, 9 -> 8, h=6 DUPLICATE
+RREP: [17#.. -> 0#59], 3 -> 10, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 3, 2, 80]
+FORWARD RREP
+RREQ: [17#32 -> 0#0], bID=1, 9 -> 12, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 9, 6, 80]
+REBROADCAST RREQ
+RREQ: [17#32 -> 0#0], bID=1, 9 -> 16, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 9, 6, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [17#32 -> 0#0], bID=1, 12 -> 9, h=7 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 16 -> 9, h=7 DUPLICATE
+RREP: [17#.. -> 0#59], 10 -> 13, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 10, 3, 80]
+FORWARD RREP
+RREQ: [17#32 -> 0#0], bID=1, 12 -> 19, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 12, 7, 80]
+REBROADCAST RREQ
+RREQ: [17#32 -> 0#0], bID=1, 16 -> 22, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 16, 7, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [17#32 -> 0#0], bID=1, 19 -> 12, h=8 DUPLICATE
+RREQ: [17#32 -> 0#0], bID=1, 22 -> 16, h=8 DUPLICATE
+RREP: [17#.. -> 0#59], 13 -> 17, h=4
+DUPLICATE RREP
+[59, 14, 4, 1194] [59, 14, 4, 1194]
+RREQ INITIATOR
+RREQ: [17#32 -> 0#0], bID=1, 19 -> 23, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [32, 19, 8, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [17#32 -> 0#0], bID=1, 23 -> 19, h=9 DUPLICATE
+--------------------
+RREQ: [5#48 -> 0#0], bID=1, 5 -> 4, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 5, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [5#48 -> 0#0], bID=1, 4 -> 3, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 4, 2, 80]
+ANSWER RREQ with RREP
+RREQ: [5#48 -> 0#0], bID=1, 4 -> 5, h=2 DUPLICATE
+RREQ: [5#48 -> 0#0], bID=1, 4 -> 8, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 4, 2, 80]
+REBROADCAST RREQ
+RREQ: [5#48 -> 0#0], bID=1, 4 -> 10, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 4, 2, 80]
+ANSWER RREQ with RREP
+--------------------
+RREP: [5#.. -> 0#59], 3 -> 4, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 3, 2, 80]
+FORWARD RREP
+RREQ: [5#48 -> 0#0], bID=1, 8 -> 4, h=3 DUPLICATE
+RREP: [5#.. -> 0#59], 10 -> 4, h=3
+DUPLICATE RREP
+[59, 3, 2, 80] [59, 3, 2, 80]
+RREQ: [5#48 -> 0#0], bID=1, 8 -> 9, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 8, 3, 80]
+REBROADCAST RREQ
+--------------------
+RREP: [5#.. -> 0#59], 4 -> 5, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 4, 3, 80]
+RREQ INITIATOR
+RREQ: [5#48 -> 0#0], bID=1, 9 -> 8, h=4 DUPLICATE
+RREQ: [5#48 -> 0#0], bID=1, 9 -> 12, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 9, 4, 80]
+REBROADCAST RREQ
+RREQ: [5#48 -> 0#0], bID=1, 9 -> 16, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 9, 4, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [5#.. -> 0#..], 4, <dummy_message5>
+RREQ: [5#48 -> 0#0], bID=1, 12 -> 9, h=5 DUPLICATE
+RREQ: [5#48 -> 0#0], bID=1, 16 -> 9, h=5 DUPLICATE
+RREQ: [5#48 -> 0#0], bID=1, 12 -> 19, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 12, 5, 80]
+REBROADCAST RREQ
+RREQ: [5#48 -> 0#0], bID=1, 16 -> 22, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 16, 5, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [5#.. -> 0#..], 3, <dummy_message5>
+RREQ: [5#48 -> 0#0], bID=1, 19 -> 12, h=6 DUPLICATE
+RREQ: [5#48 -> 0#0], bID=1, 22 -> 16, h=6 DUPLICATE
+RREQ: [5#48 -> 0#0], bID=1, 19 -> 23, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [48, 19, 6, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [5#.. -> 0#..], 0, <dummy_message5>
+RREQ: [5#48 -> 0#0], bID=1, 23 -> 19, h=7 DUPLICATE
+18 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+21 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+24 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+2 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+15 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+0 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+1 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:21,bID:1,dest0
+13 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+14 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+17 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+10 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+3 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+4 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+0 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+5 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+8 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+9 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+19 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:17,bID:1,dest0
+--------------------
+RREQ: [15#90 -> 0#0], bID=1, 15 -> 1, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [90, 15, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [15#90 -> 0#0], bID=1, 15 -> 18, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [90, 15, 1, 80]
+ANSWER RREQ with RREP
+--------------------
+RREP: [15#.. -> 0#59], 1 -> 15, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 1, 2, 80]
+RREQ INITIATOR
+RREP: [15#.. -> 0#59], 18 -> 15, h=3
+DUPLICATE RREP
+[59, 1, 2, 80] [59, 1, 2, 80]
+RREQ INITIATOR
+--------------------
+Pack: [15#.. -> 0#..], 1, <dummy_message15>
+--------------------
+Pack: [15#.. -> 0#..], 0, <dummy_message15>
+--------------------
+RREQ: [24#31 -> 0#0], bID=1, 24 -> 21, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [31, 24, 1, 80]
+ANSWER RREQ with RREP
+--------------------
+RREP: [24#.. -> 0#59], 21 -> 24, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 21, 4, 80]
+RREQ INITIATOR
+--------------------
+Pack: [24#.. -> 0#..], 21, <dummy_message24>
+--------------------
+4 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+5 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+Pack: [24#.. -> 0#..], 18, <dummy_message24>
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [24#.. -> 0#..], 2, <dummy_message24>
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+3 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+8 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+10 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+--------------------
+Pack: [24#.. -> 0#..], 0, <dummy_message24>
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+9 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+19 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:5,bID:1,dest0
+1 -> REMOVE RREQ-ENTRY src:15,bID:1,dest0
+15 -> REMOVE RREQ-ENTRY src:15,bID:1,dest0
+18 -> REMOVE RREQ-ENTRY src:15,bID:1,dest0
+--------------------
+RREQ: [6#60 -> 0#0], bID=1, 6 -> 0, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [60, 6, 1, 80]
+RREQ TARGET
+RREQ: [6#60 -> 0#0], bID=1, 6 -> 2, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [60, 6, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [6#60 -> 0#0], bID=1, 6 -> 11, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [60, 6, 1, 80]
+REBROADCAST RREQ
+RREQ: [6#60 -> 0#0], bID=1, 6 -> 20, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [60, 6, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [6#60 -> 0#0], bID=1, 11 -> 2, h=2 DUPLICATE
+RREP: [6#.. -> 0#59], 0 -> 6, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 0, 1, 80]
+RREQ INITIATOR
+RREP: [6#.. -> 0#59], 2 -> 6, h=2
+DUPLICATE RREP
+[59, 0, 1, 80] [59, 0, 1, 80]
+RREQ INITIATOR
+RREQ: [6#60 -> 0#0], bID=1, 11 -> 6, h=2 DUPLICATE
+RREQ: [6#60 -> 0#0], bID=1, 20 -> 6, h=2 DUPLICATE
+RREQ: [6#60 -> 0#0], bID=1, 20 -> 11, h=2 DUPLICATE
+RREQ: [6#60 -> 0#0], bID=1, 11 -> 20, h=2 DUPLICATE
+--------------------
+Pack: [6#.. -> 0#..], 0, <dummy_message6>
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+21 -> REMOVE RREQ-ENTRY src:24,bID:1,dest0
+24 -> REMOVE RREQ-ENTRY src:24,bID:1,dest0
+--------------------
+RREQ: [13#24 -> 0#60], bID=1, 13 -> 10, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 13, 1, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 13 -> 14, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 13, 1, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 13 -> 17, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 13, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [13#24 -> 0#60], bID=1, 10 -> 3, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 10, 2, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 10 -> 4, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 10, 2, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 14 -> 7, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 14, 2, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 10 -> 13, h=2 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 14 -> 13, h=2 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 17 -> 13, h=2 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 17 -> 14, h=2 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 14 -> 17, h=2 DUPLICATE
+--------------------
+RREQ: [13#24 -> 0#60], bID=1, 3 -> 0, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 3, 3, 80]
+RREQ TARGET
+RREQ: [13#24 -> 0#60], bID=1, 7 -> 1, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 7, 3, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 4 -> 3, h=3 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 3 -> 4, h=3 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 4 -> 5, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 4, 3, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 4 -> 8, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 4, 3, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 3 -> 10, h=3 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 4 -> 10, h=3 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 7 -> 14, h=3 DUPLICATE
+--------------------
+RREQ: [13#24 -> 0#60], bID=1, 1 -> 0, h=4 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 1 -> 2, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 1, 4, 80]
+REBROADCAST RREQ
+RREP: [13#.. -> 0#60], 0 -> 3, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+[59, 0, 1, 1004] [60, 0, 1, 80]
+FORWARD RREP
+RREQ: [13#24 -> 0#60], bID=1, 5 -> 4, h=4 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 8 -> 4, h=4 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 1 -> 7, h=4 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 8 -> 9, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 8, 4, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 1 -> 15, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 1, 4, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [13#24 -> 0#60], bID=1, 2 -> 0, h=5 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 2 -> 1, h=5 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 15 -> 1, h=5 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 2 -> 6, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 2, 5, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 9 -> 8, h=5 DUPLICATE
+RREP: [13#.. -> 0#60], 3 -> 10, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+[60, 3, 255, 0] [60, 3, 2, 80]
+FORWARD RREP
+RREQ: [13#24 -> 0#60], bID=1, 2 -> 11, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 2, 5, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 9 -> 12, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 9, 5, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 9 -> 16, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 9, 5, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 2 -> 18, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 2, 5, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 15 -> 18, h=5 DUPLICATE
+--------------------
+RREQ: [13#24 -> 0#60], bID=1, 6 -> 0, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 6 -> 2, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 11 -> 2, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 18 -> 2, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 11 -> 6, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 12 -> 9, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 16 -> 9, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 6 -> 11, h=6 DUPLICATE
+RREP: [13#.. -> 0#60], 10 -> 13, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+[60, 10, 255, 0] [60, 10, 3, 80]
+RREQ INITIATOR
+RREQ: [13#24 -> 0#60], bID=1, 18 -> 15, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 12 -> 19, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 12, 6, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 6 -> 20, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 6, 6, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 11 -> 20, h=6 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 18 -> 21, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 18, 6, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 16 -> 22, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 16, 6, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [13#24 -> 0#60], bID=1, 20 -> 6, h=7 DUPLICATE
+Pack: [13#.. -> 0#..], 10, <dummy_message13>
+RREQ: [13#24 -> 0#60], bID=1, 20 -> 11, h=7 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 19 -> 12, h=7 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 22 -> 16, h=7 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 21 -> 18, h=7 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 19 -> 23, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 19, 7, 80]
+REBROADCAST RREQ
+RREQ: [13#24 -> 0#60], bID=1, 21 -> 24, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [24, 21, 7, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [13#.. -> 0#..], 3, <dummy_message13>
+RREQ: [13#24 -> 0#60], bID=1, 23 -> 19, h=8 DUPLICATE
+RREQ: [13#24 -> 0#60], bID=1, 24 -> 21, h=8 DUPLICATE
+--------------------
+Pack: [13#.. -> 0#..], 0, <dummy_message13>
+0 -> REMOVE RREQ-ENTRY src:6,bID:1,dest0
+2 -> REMOVE RREQ-ENTRY src:6,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:6,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:6,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:6,bID:1,dest0
+--------------------
+Pack: [1#.. -> 0#..], 0, <dummy_message1>
+--------------------
+Pack: [13#.. -> 0#..], 10, <dummy_message13>
+--------------------
+Pack: [13#.. -> 0#..], 3, <dummy_message13>
+--------------------
+Pack: [13#.. -> 0#..], 0, <dummy_message13>
+--------------------
+RREQ: [11#66 -> 0#0], bID=1, 11 -> 2, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [66, 11, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [11#66 -> 0#0], bID=1, 11 -> 6, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [66, 11, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [11#66 -> 0#0], bID=1, 11 -> 20, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [66, 11, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [11#66 -> 0#0], bID=1, 20 -> 6, h=2 DUPLICATE
+RREP: [11#.. -> 0#59], 2 -> 11, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 2, 2, 80]
+RREQ INITIATOR
+RREP: [11#.. -> 0#59], 6 -> 11, h=2
+DUPLICATE RREP
+[59, 2, 2, 80] [59, 2, 2, 80]
+RREQ INITIATOR
+RREQ: [11#66 -> 0#0], bID=1, 20 -> 11, h=2 DUPLICATE
+--------------------
+Pack: [11#.. -> 0#..], 2, <dummy_message11>
+--------------------
+Pack: [11#.. -> 0#..], 0, <dummy_message11>
+10 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+13 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+14 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+17 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+3 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+4 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+7 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+0 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+1 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+5 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+8 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+2 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+9 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+15 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+18 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+19 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+21 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+24 -> REMOVE RREQ-ENTRY src:13,bID:1,dest0
+2 -> REMOVE RREQ-ENTRY src:11,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:11,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:11,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:11,bID:1,dest0
+--------------------
+RREQ: [12#41 -> 0#0], bID=1, 12 -> 9, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 12, 1, 80]
+REBROADCAST RREQ
+RREQ: [12#41 -> 0#0], bID=1, 12 -> 19, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 12, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [12#41 -> 0#0], bID=1, 9 -> 8, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 9, 2, 80]
+REBROADCAST RREQ
+RREQ: [12#41 -> 0#0], bID=1, 9 -> 12, h=2 DUPLICATE
+RREQ: [12#41 -> 0#0], bID=1, 19 -> 12, h=2 DUPLICATE
+RREQ: [12#41 -> 0#0], bID=1, 9 -> 16, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 9, 2, 80]
+REBROADCAST RREQ
+RREQ: [12#41 -> 0#0], bID=1, 19 -> 23, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 19, 2, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [12#41 -> 0#0], bID=1, 8 -> 4, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 8, 3, 80]
+ANSWER RREQ with RREP
+RREQ: [12#41 -> 0#0], bID=1, 8 -> 9, h=3 DUPLICATE
+RREQ: [12#41 -> 0#0], bID=1, 16 -> 9, h=3 DUPLICATE
+RREQ: [12#41 -> 0#0], bID=1, 23 -> 19, h=3 DUPLICATE
+RREQ: [12#41 -> 0#0], bID=1, 16 -> 22, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [41, 16, 3, 80]
+REBROADCAST RREQ
+--------------------
+RREP: [12#.. -> 0#59], 4 -> 8, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 4, 3, 80]
+FORWARD RREP
+RREQ: [12#41 -> 0#0], bID=1, 22 -> 16, h=4 DUPLICATE
+--------------------
+RREP: [12#.. -> 0#59], 8 -> 9, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 8, 4, 80]
+FORWARD RREP
+--------------------
+RREP: [12#.. -> 0#59], 9 -> 12, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 9, 5, 80]
+RREQ INITIATOR
+--------------------
+Pack: [12#.. -> 0#..], 9, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 8, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 4, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 3, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 0, <dummy_message12>
+--------------------
+RREQ: [20#93 -> 0#0], bID=1, 20 -> 6, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [93, 20, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [20#93 -> 0#0], bID=1, 20 -> 11, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [93, 20, 1, 80]
+ANSWER RREQ with RREP
+--------------------
+RREP: [20#.. -> 0#59], 6 -> 20, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 6, 2, 80]
+RREQ INITIATOR
+RREP: [20#.. -> 0#59], 11 -> 20, h=3
+DUPLICATE RREP
+[59, 6, 2, 80] [59, 6, 2, 80]
+RREQ INITIATOR
+--------------------
+Pack: [20#.. -> 0#..], 6, <dummy_message20>
+--------------------
+Pack: [20#.. -> 0#..], 0, <dummy_message20>
+--------------------
+Pack: [11#.. -> 0#..], 2, <dummy_message11>
+--------------------
+Pack: [11#.. -> 0#..], 0, <dummy_message11>
+9 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+19 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+8 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+4 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:12,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:20,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:20,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:20,bID:1,dest0
+--------------------
+Pack: [2#.. -> 0#..], 0, <dummy_message2>
+--------------------
+Pack: [20#.. -> 0#..], 6, <dummy_message20>
+--------------------
+Pack: [20#.. -> 0#..], 0, <dummy_message20>
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+--------------------
+Pack: [5#.. -> 0#..], 4, <dummy_message5>
+--------------------
+Pack: [5#.. -> 0#..], 3, <dummy_message5>
+--------------------
+Pack: [5#.. -> 0#..], 0, <dummy_message5>
+--------------------
+RREQ: [23#89 -> 0#0], bID=1, 23 -> 19, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [89, 23, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [23#89 -> 0#0], bID=1, 19 -> 12, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [89, 19, 2, 80]
+ANSWER RREQ with RREP
+RREQ: [23#89 -> 0#0], bID=1, 19 -> 23, h=2 DUPLICATE
+--------------------
+RREP: [23#.. -> 0#59], 12 -> 19, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 12, 6, 80]
+FORWARD RREP
+--------------------
+RREP: [23#.. -> 0#59], 19 -> 23, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 19, 7, 80]
+RREQ INITIATOR
+--------------------
+Pack: [23#.. -> 0#..], 19, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 12, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 9, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 8, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 4, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 3, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 0, <dummy_message23>
+--------------------
+Pack: [10#.. -> 0#..], 3, <dummy_message10>
+--------------------
+Pack: [10#.. -> 0#..], 0, <dummy_message10>
+--------------------
+Pack: [6#.. -> 0#..], 0, <dummy_message6>
+--------------------
+Pack: [19#.. -> 0#..], 12, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 9, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 8, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 4, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 3, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 0, <dummy_message19>
+19 -> REMOVE RREQ-ENTRY src:23,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:23,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:23,bID:1,dest0
+--------------------
+Pack: [9#.. -> 0#..], 8, <dummy_message9>
+--------------------
+Pack: [9#.. -> 0#..], 4, <dummy_message9>
+--------------------
+Pack: [9#.. -> 0#..], 3, <dummy_message9>
+--------------------
+Pack: [9#.. -> 0#..], 0, <dummy_message9>
+--------------------
+Pack: [2#.. -> 0#..], 0, <dummy_message2>
+--------------------
+Pack: [17#.. -> 0#..], 14, <dummy_message17>
+--------------------
+Pack: [17#.. -> 0#..], 7, <dummy_message17>
+--------------------
+Pack: [17#.. -> 0#..], 1, <dummy_message17>
+--------------------
+Pack: [17#.. -> 0#..], 0, <dummy_message17>
+--------------------
+Pack: [7#.. -> 0#..], 1, <dummy_message7>
+Pack: [4#.. -> 0#..], 3, <dummy_message4>
+--------------------
+Pack: [7#.. -> 0#..], 0, <dummy_message7>
+Pack: [4#.. -> 0#..], 0, <dummy_message4>
+--------------------
+Pack: [19#.. -> 0#..], 12, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 9, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 8, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 4, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 3, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 0, <dummy_message19>
+--------------------
+Pack: [2#.. -> 0#..], 0, <dummy_message2>
+--------------------
+Pack: [4#.. -> 0#..], 3, <dummy_message4>
+--------------------
+Pack: [4#.. -> 0#..], 0, <dummy_message4>
+--------------------
+Pack: [5#.. -> 0#..], 4, <dummy_message5>
+--------------------
+Pack: [5#.. -> 0#..], 3, <dummy_message5>
+--------------------
+Pack: [5#.. -> 0#..], 0, <dummy_message5>
+--------------------
+Pack: [3#.. -> 0#..], 0, <dummy_message3>
+--------------------
+Pack: [8#.. -> 0#..], 4, <dummy_message8>
+--------------------
+Pack: [8#.. -> 0#..], 3, <dummy_message8>
+--------------------
+Pack: [8#.. -> 0#..], 0, <dummy_message8>
+--------------------
+Pack: [3#.. -> 0#..], 0, <dummy_message3>
+--------------------
+Pack: [24#.. -> 0#..], 21, <dummy_message24>
+--------------------
+Pack: [24#.. -> 0#..], 18, <dummy_message24>
+--------------------
+Pack: [24#.. -> 0#..], 2, <dummy_message24>
+--------------------
+Pack: [24#.. -> 0#..], 0, <dummy_message24>
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+--------------------
+Pack: [7#.. -> 0#..], 1, <dummy_message7>
+--------------------
+Pack: [7#.. -> 0#..], 0, <dummy_message7>
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+--------------------
+Pack: [7#.. -> 0#..], 1, <dummy_message7>
+--------------------
+Pack: [7#.. -> 0#..], 0, <dummy_message7>
+--------------------
+Pack: [4#.. -> 0#..], 3, <dummy_message4>
+--------------------
+Pack: [4#.. -> 0#..], 0, <dummy_message4>
+--------------------
+Pack: [13#.. -> 0#..], 10, <dummy_message13>
+--------------------
+Pack: [13#.. -> 0#..], 3, <dummy_message13>
+--------------------
+Pack: [13#.. -> 0#..], 0, <dummy_message13>
+--------------------
+Pack: [23#.. -> 0#..], 19, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 12, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 9, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 8, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 4, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 3, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 0, <dummy_message23>
+--------------------
+Pack: [7#.. -> 0#..], 1, <dummy_message7>
+--------------------
+Pack: [7#.. -> 0#..], 0, <dummy_message7>
+--------------------
+Pack: [18#.. -> 0#..], 2, <dummy_message18>
+--------------------
+Pack: [18#.. -> 0#..], 0, <dummy_message18>
+--------------------
+Pack: [19#.. -> 0#..], 12, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 9, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 8, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 4, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 3, <dummy_message19>
+--------------------
+Pack: [19#.. -> 0#..], 0, <dummy_message19>
+--------------------
+RREQ: [16#39 -> 0#0], bID=1, 16 -> 9, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [39, 16, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [16#39 -> 0#0], bID=1, 16 -> 22, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [39, 16, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREP: [16#.. -> 0#59], 9 -> 16, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 9, 5, 80]
+RREQ INITIATOR
+RREQ: [16#39 -> 0#0], bID=1, 22 -> 16, h=2 DUPLICATE
+--------------------
+Pack: [16#.. -> 0#..], 9, <dummy_message16>
+--------------------
+Pack: [16#.. -> 0#..], 8, <dummy_message16>
+--------------------
+Pack: [16#.. -> 0#..], 4, <dummy_message16>
+--------------------
+Pack: [16#.. -> 0#..], 3, <dummy_message16>
+--------------------
+Pack: [16#.. -> 0#..], 0, <dummy_message16>
+--------------------
+Pack: [5#.. -> 0#..], 4, <dummy_message5>
+Pack: [24#.. -> 0#..], 21, <dummy_message24>
+--------------------
+Pack: [5#.. -> 0#..], 3, <dummy_message5>
+Pack: [24#.. -> 0#..], 18, <dummy_message24>
+--------------------
+Pack: [5#.. -> 0#..], 0, <dummy_message5>
+Pack: [24#.. -> 0#..], 2, <dummy_message24>
+--------------------
+Pack: [24#.. -> 0#..], 0, <dummy_message24>
+9 -> REMOVE RREQ-ENTRY src:16,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:16,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:16,bID:1,dest0
+--------------------
+Pack: [1#.. -> 0#..], 0, <dummy_message1>
+--------------------
+Pack: [13#.. -> 0#..], 10, <dummy_message13>
+--------------------
+Pack: [13#.. -> 0#..], 3, <dummy_message13>
+--------------------
+Pack: [13#.. -> 0#..], 0, <dummy_message13>
+--------------------
+Pack: [4#.. -> 0#..], 3, <dummy_message4>
+--------------------
+Pack: [4#.. -> 0#..], 0, <dummy_message4>
+--------------------
+Pack: [8#.. -> 0#..], 4, <dummy_message8>
+--------------------
+Pack: [8#.. -> 0#..], 3, <dummy_message8>
+--------------------
+Pack: [8#.. -> 0#..], 0, <dummy_message8>
+--------------------
+Pack: [8#.. -> 0#..], 4, <dummy_message8>
+--------------------
+Pack: [8#.. -> 0#..], 3, <dummy_message8>
+--------------------
+Pack: [8#.. -> 0#..], 0, <dummy_message8>
+--------------------
+Pack: [17#.. -> 0#..], 14, <dummy_message17>
+--------------------
+Pack: [17#.. -> 0#..], 7, <dummy_message17>
+--------------------
+Pack: [17#.. -> 0#..], 1, <dummy_message17>
+--------------------
+Pack: [17#.. -> 0#..], 0, <dummy_message17>
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 18, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 2, <dummy_message21>
+--------------------
+Pack: [21#.. -> 0#..], 0, <dummy_message21>
+--------------------
+Pack: [1#.. -> 0#..], 0, <dummy_message1>
+--------------------
+Pack: [1#.. -> 0#..], 0, <dummy_message1>
+--------------------
+Pack: [10#.. -> 0#..], 3, <dummy_message10>
+--------------------
+Pack: [10#.. -> 0#..], 0, <dummy_message10>
+--------------------
+Pack: [12#.. -> 0#..], 9, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 8, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 4, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 3, <dummy_message12>
+--------------------
+Pack: [12#.. -> 0#..], 0, <dummy_message12>
+--------------------
+RREQ: [22#55 -> 0#0], bID=1, 22 -> 16, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [55, 22, 1, 80]
+ANSWER RREQ with RREP
+--------------------
+RREP: [22#.. -> 0#59], 16 -> 22, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [59, 16, 6, 80]
+RREQ INITIATOR
+--------------------
+Pack: [22#.. -> 0#..], 16, <dummy_message22>
+--------------------
+Pack: [22#.. -> 0#..], 9, <dummy_message22>
+--------------------
+Pack: [22#.. -> 0#..], 8, <dummy_message22>
+Pack: [23#.. -> 0#..], 19, <dummy_message23>
+--------------------
+Pack: [22#.. -> 0#..], 4, <dummy_message22>
+Pack: [23#.. -> 0#..], 12, <dummy_message23>
+--------------------
+Pack: [22#.. -> 0#..], 3, <dummy_message22>
+Pack: [23#.. -> 0#..], 9, <dummy_message23>
+--------------------
+Pack: [22#.. -> 0#..], 0, <dummy_message22>
+Pack: [23#.. -> 0#..], 8, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 4, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 3, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 0, <dummy_message23>
+16 -> REMOVE RREQ-ENTRY src:22,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:22,bID:1,dest0
+--------------------
+RREQ: [23#90 -> 0#59], bID=2, 23 -> 19, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+[90, 23, 255, 0] [90, 23, 1, 80]
+ANSWER RREQ with RREP
+--------------------
+RREP: [23#.. -> 0#59], 19 -> 23, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+[59, 19, 7, 1096] [59, 19, 7, 1096]
+RREQ INITIATOR
+--------------------
+Pack: [23#.. -> 0#..], 19, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 12, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 9, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 8, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 4, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 3, <dummy_message23>
+--------------------
+Pack: [23#.. -> 0#..], 0, <dummy_message23>
+19 -> REMOVE RREQ-ENTRY src:23,bID:2,dest0
+23 -> REMOVE RREQ-ENTRY src:23,bID:2,dest0
+--------------------
+Pack: [10#.. -> 0#..], 3, <dummy_message10>
+--------------------
+Pack: [10#.. -> 0#..], 0, <dummy_message10>
+--------------------
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 66 -> 62, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 66, 1, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 66 -> 75, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 66, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 62 -> 59, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 62, 2, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 62 -> 66, h=2 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 75 -> 66, h=2 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 62 -> 70, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 62, 2, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 75 -> 70, h=2 DUPLICATE
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 59 -> 56, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 59, 3, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 59 -> 62, h=3 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 70 -> 62, h=3 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 70 -> 75, h=3 DUPLICATE
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 56 -> 54, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 56, 4, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 56 -> 59, h=4 DUPLICATE
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 54 -> 46, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 54, 5, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 54 -> 56, h=5 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 54 -> 79, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 54, 5, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 46 -> 22, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 46, 6, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 46 -> 38, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 46, 6, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 79 -> 49, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 79, 6, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 46 -> 54, h=6 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 79 -> 54, h=6 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 79 -> 64, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 79, 6, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 38 -> 2, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 38, 7, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 38 -> 6, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 38, 7, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 49 -> 12, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 49, 7, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 22 -> 19, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 22, 7, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 22 -> 33, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 22, 7, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 22 -> 42, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 22, 7, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 22 -> 46, h=7 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 38 -> 46, h=7 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 64 -> 49, h=7 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 49 -> 64, h=7 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 64 -> 68, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 64, 7, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 49 -> 79, h=7 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 64 -> 79, h=7 DUPLICATE
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 2 -> 0, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 2, 8, 80]
+RREQ TARGET
+RREQ: [66#94 -> 0#0], bID=1, 6 -> 0, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 6 -> 2, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 2 -> 6, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 6 -> 10, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 6, 8, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 12 -> 10, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 68 -> 12, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 19 -> 13, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 19, 8, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 42 -> 19, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 19 -> 22, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 33 -> 22, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 42 -> 22, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 2 -> 26, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 2, 8, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 19 -> 26, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 42 -> 33, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 33 -> 34, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 33, 8, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 2 -> 38, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 6 -> 38, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 19 -> 42, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 33 -> 42, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 12 -> 49, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 42 -> 50, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 42, 8, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 68 -> 64, h=8 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 12 -> 68, h=8 DUPLICATE
+--------------------
+RREP: [66#.. -> 0#26], 0 -> 2, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 0, 1, 80]
+FORWARD RREP
+RREQ: [66#94 -> 0#0], bID=1, 26 -> 2, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 10 -> 6, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 13 -> 7, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 13, 9, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 26 -> 7, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 10 -> 12, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 26 -> 13, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 13 -> 15, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 13, 9, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 10 -> 16, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 10, 9, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 13 -> 19, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 26 -> 19, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 50 -> 21, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 50, 9, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 13 -> 26, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 34 -> 33, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 50 -> 42, h=9 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 34 -> 47, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 34, 9, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 7 -> 5, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 7, 10, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 15 -> 7, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 16 -> 9, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 16, 10, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 16 -> 10, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 7 -> 13, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 15 -> 13, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 7 -> 15, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 15 -> 17, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 15, 10, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 21 -> 17, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 7 -> 20, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 7, 10, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 15 -> 20, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 16 -> 24, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 16, 10, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 7 -> 26, h=10 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 16 -> 30, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 16, 10, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 47 -> 34, h=10 DUPLICATE
+RREP: [66#.. -> 0#26], 2 -> 38, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 2, 2, 80]
+FORWARD RREP
+RREQ: [66#94 -> 0#0], bID=1, 21 -> 50, h=10 DUPLICATE
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 9 -> 1, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 9, 11, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 5 -> 4, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 5, 11, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 5 -> 7, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 20 -> 7, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 24 -> 9, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 9 -> 11, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 9, 11, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 17 -> 15, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 20 -> 15, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 9 -> 16, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 24 -> 16, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 30 -> 16, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 17 -> 21, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 24 -> 23, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 24, 11, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 9 -> 24, h=11 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 30 -> 32, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 30, 11, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 5 -> 43, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 5, 11, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 17 -> 44, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 17, 11, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 20 -> 45, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 20, 11, 80]
+REBROADCAST RREQ
+RREP: [66#.. -> 0#26], 38 -> 46, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 38, 3, 80]
+FORWARD RREP
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 1 -> 0, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 4 -> 0, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 4 -> 1, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 11 -> 1, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 1 -> 3, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 1, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 4 -> 3, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 11 -> 3, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 1 -> 4, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 4 -> 5, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 43 -> 5, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 1 -> 9, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 11 -> 9, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 1 -> 11, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 23 -> 11, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 43 -> 14, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 43, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 44 -> 17, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 45 -> 20, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 11 -> 23, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 23 -> 24, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 45 -> 27, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 45, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 23 -> 29, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 23, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 32 -> 30, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 32 -> 36, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 32, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 45 -> 44, h=12 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 44 -> 45, h=12 DUPLICATE
+RREP: [66#.. -> 0#26], 46 -> 54, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 46, 4, 80]
+FORWARD RREP
+RREQ: [66#94 -> 0#0], bID=1, 44 -> 57, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 44, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 45 -> 58, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 45, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 32 -> 61, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 32, 12, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 32 -> 76, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 32, 12, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 3 -> 1, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 3 -> 4, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 3 -> 8, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 3, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 14 -> 8, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 3 -> 11, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 3 -> 18, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 3, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 29 -> 23, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 14 -> 25, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 14, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 27 -> 25, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 29 -> 28, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 29, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 36 -> 32, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 61 -> 32, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 76 -> 32, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 14 -> 35, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 14, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 61 -> 36, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 29 -> 37, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 29, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 76 -> 37, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 36 -> 40, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 36, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 61 -> 40, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 14 -> 43, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 57 -> 44, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 27 -> 45, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 58 -> 45, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 27 -> 48, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 27, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 58 -> 48, h=13 DUPLICATE
+RREP: [66#.. -> 0#26], 54 -> 56, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 54, 5, 80]
+FORWARD RREP
+RREQ: [66#94 -> 0#0], bID=1, 57 -> 60, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 57, 13, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 58 -> 60, h=13 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 36 -> 61, h=13 DUPLICATE
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 8 -> 3, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 18 -> 3, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 18 -> 8, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 35 -> 8, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 8 -> 14, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 25 -> 14, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 35 -> 14, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 8 -> 18, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 28 -> 18, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 25 -> 27, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 48 -> 27, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 18 -> 28, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 28 -> 29, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 37 -> 29, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 28 -> 31, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 28, 14, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 8 -> 35, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 40 -> 36, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 25 -> 39, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 25, 14, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 35 -> 39, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 35 -> 41, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 35, 14, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 40 -> 51, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 40, 14, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 60 -> 57, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 48 -> 58, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 60 -> 58, h=14 DUPLICATE
+RREP: [66#.. -> 0#26], 56 -> 59, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 56, 6, 80]
+FORWARD RREP
+RREQ: [66#94 -> 0#0], bID=1, 40 -> 61, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 60 -> 65, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 60, 14, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 25 -> 72, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 25, 14, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 48 -> 72, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 37 -> 76, h=14 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 48 -> 77, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 48, 14, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 39 -> 25, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 72 -> 25, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 31 -> 28, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 39 -> 35, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 41 -> 35, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 41 -> 39, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 51 -> 40, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 39 -> 41, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 72 -> 48, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 77 -> 48, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 51 -> 52, h=15
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 51, 15, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 39 -> 53, h=15
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 39, 15, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 41 -> 53, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 31 -> 55, h=15
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 31, 15, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 65 -> 60, h=15 DUPLICATE
+RREP: [66#.. -> 0#26], 59 -> 62, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 59, 7, 80]
+FORWARD RREP
+RREQ: [66#94 -> 0#0], bID=1, 41 -> 63, h=15
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 41, 15, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 77 -> 65, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 39 -> 71, h=15
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 39, 15, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 72 -> 71, h=15 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 65 -> 77, h=15 DUPLICATE
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 55 -> 31, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 53 -> 39, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 71 -> 39, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 53 -> 41, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 63 -> 41, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 52 -> 51, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 71 -> 53, h=16 DUPLICATE
+RREP: [66#.. -> 0#26], 62 -> 66, h=8
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 62, 8, 80]
+RREQ INITIATOR
+RREQ: [66#94 -> 0#0], bID=1, 52 -> 67, h=16
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 52, 16, 80]
+REBROADCAST RREQ
+RREQ: [66#94 -> 0#0], bID=1, 53 -> 71, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 71 -> 72, h=16 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 63 -> 73, h=16
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 63, 16, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [66#94 -> 0#0], bID=1, 67 -> 52, h=17 DUPLICATE
+Pack: [66#.. -> 0#..], 62, <dummy_message66>
+RREQ: [66#94 -> 0#0], bID=1, 73 -> 63, h=17 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 67 -> 69, h=17
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 67, 17, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [66#.. -> 0#..], 59, <dummy_message66>
+RREQ: [66#94 -> 0#0], bID=1, 69 -> 67, h=18 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 69 -> 74, h=18
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 69, 18, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [66#.. -> 0#..], 56, <dummy_message66>
+RREQ: [66#94 -> 0#0], bID=1, 74 -> 69, h=19 DUPLICATE
+RREQ: [66#94 -> 0#0], bID=1, 74 -> 78, h=19
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [94, 74, 19, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [66#.. -> 0#..], 54, <dummy_message66>
+RREQ: [66#94 -> 0#0], bID=1, 78 -> 74, h=20 DUPLICATE
+--------------------
+Pack: [66#.. -> 0#..], 46, <dummy_message66>
+--------------------
+Pack: [66#.. -> 0#..], 38, <dummy_message66>
+--------------------
+Pack: [66#.. -> 0#..], 2, <dummy_message66>
+--------------------
+Pack: [66#.. -> 0#..], 0, <dummy_message66>
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 72 -> 25, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 72, 1, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 72 -> 48, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 72, 1, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 72 -> 71, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 72, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 25 -> 14, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 25, 2, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 25 -> 27, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 25, 2, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 48 -> 27, h=2 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 25 -> 39, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 25, 2, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 71 -> 39, h=2 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 71 -> 53, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 71, 2, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 48 -> 58, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 48, 2, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 25 -> 72, h=2 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 48 -> 72, h=2 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 71 -> 72, h=2 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 48 -> 77, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 48, 2, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 14 -> 8, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 14, 3, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 14 -> 25, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 27 -> 25, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 39 -> 25, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 14 -> 35, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 14, 3, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 39 -> 35, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 53 -> 39, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 39 -> 41, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 39, 3, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 53 -> 41, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 14 -> 43, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 14, 3, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 27 -> 45, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 27, 3, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 58 -> 45, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 27 -> 48, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 58 -> 48, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 77 -> 48, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 39 -> 53, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 58 -> 60, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 58, 3, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 77 -> 65, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 77, 3, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 39 -> 71, h=3 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 53 -> 71, h=3 DUPLICATE
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 8 -> 3, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 8, 4, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 43 -> 5, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 43, 4, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 35 -> 8, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 8 -> 14, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 35 -> 14, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 43 -> 14, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 8 -> 18, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 8, 4, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 45 -> 20, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 45, 4, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 45 -> 27, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 8 -> 35, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 41 -> 35, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 35 -> 39, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 41 -> 39, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 35 -> 41, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 45 -> 44, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 45, 4, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 41 -> 53, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 60 -> 57, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 60, 4, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 45 -> 58, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 60 -> 58, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 65 -> 60, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 41 -> 63, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 41, 4, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 60 -> 65, h=4 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 65 -> 77, h=4 DUPLICATE
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 3 -> 1, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 3, 5, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 18 -> 3, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 3 -> 4, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 3, 5, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 5 -> 4, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 5 -> 7, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 5, 5, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 20 -> 7, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 3 -> 8, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 18 -> 8, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 3 -> 11, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 3, 5, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 20 -> 15, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 20, 5, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 44 -> 17, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 44, 5, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 3 -> 18, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 18 -> 28, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 18, 5, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 63 -> 41, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 5 -> 43, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 57 -> 44, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 20 -> 45, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 44 -> 45, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 44 -> 57, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 57 -> 60, h=5 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 63 -> 73, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 63, 5, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 1 -> 0, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 1, 6, 80]
+RREQ TARGET
+RREQ: [72#34 -> 0#0], bID=1, 4 -> 0, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 4 -> 1, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 11 -> 1, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 1 -> 3, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 4 -> 3, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 11 -> 3, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 1 -> 4, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 4 -> 5, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 7 -> 5, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 15 -> 7, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 1 -> 9, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 1, 6, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 11 -> 9, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 1 -> 11, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 7 -> 13, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 7, 6, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 15 -> 13, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 7 -> 15, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 17 -> 15, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 15 -> 17, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 28 -> 18, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 7 -> 20, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 15 -> 20, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 17 -> 21, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 17, 6, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 11 -> 23, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 11, 6, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 7 -> 26, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 7, 6, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 28 -> 29, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 28, 6, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 28 -> 31, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 28, 6, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 17 -> 44, h=6 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 73 -> 63, h=6 DUPLICATE
+--------------------
+RREP: [72#.. -> 0#26], 0 -> 1, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 0, 1, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 9 -> 1, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 26 -> 2, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 26, 7, 80]
+ANSWER RREQ with RREP
+RREQ: [72#34 -> 0#0], bID=1, 13 -> 7, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 26 -> 7, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 9 -> 11, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 23 -> 11, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 26 -> 13, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 13 -> 15, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 9 -> 16, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 9, 7, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 21 -> 17, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 13 -> 19, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 13, 7, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 26 -> 19, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 29 -> 23, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 9 -> 24, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 9, 7, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 23 -> 24, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 13 -> 26, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 29 -> 28, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 31 -> 28, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 23 -> 29, h=7 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 29 -> 37, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 29, 7, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 21 -> 50, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 21, 7, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 31 -> 55, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 31, 7, 80]
+REBROADCAST RREQ
+--------------------
+RREP: [72#.. -> 0#26], 1 -> 3, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 1, 2, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 16 -> 9, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 24 -> 9, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 16 -> 10, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 16, 8, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 19 -> 13, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 24 -> 16, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 50 -> 21, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 19 -> 22, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 19, 8, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 24 -> 23, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 16 -> 24, h=8 DUPLICATE
+RREP: [72#.. -> 0#26], 2 -> 26, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 2, 2, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 19 -> 26, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 37 -> 29, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 16 -> 30, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 16, 8, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 55 -> 31, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 19 -> 42, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 19, 8, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 50 -> 42, h=8 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 37 -> 76, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 37, 8, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 10 -> 6, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 10, 9, 80]
+REBROADCAST RREQ
+RREP: [72#.. -> 0#26], 26 -> 7, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 26, 3, 80]
+FORWARD RREP
+RREP: [72#.. -> 0#26], 3 -> 8, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 3, 3, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 10 -> 12, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 10, 9, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 10 -> 16, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 30 -> 16, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 22 -> 19, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 42 -> 19, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 42 -> 22, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 30 -> 32, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 30, 9, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 76 -> 32, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 22 -> 33, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 22, 9, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 42 -> 33, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 76 -> 37, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 22 -> 42, h=9 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 22 -> 46, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 22, 9, 80]
+ANSWER RREQ with RREP
+RREQ: [72#34 -> 0#0], bID=1, 42 -> 50, h=9 DUPLICATE
+--------------------
+RREQ: [72#34 -> 0#0], bID=1, 6 -> 0, h=10 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 6 -> 2, h=10 DUPLICATE
+RREP: [72#.. -> 0#26], 7 -> 5, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 7, 4, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 6 -> 10, h=10 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 12 -> 10, h=10 DUPLICATE
+RREP: [72#.. -> 0#26], 8 -> 14, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 8, 4, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 33 -> 22, h=10 DUPLICATE
+RREP: [72#.. -> 0#26], 46 -> 22, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 46, 4, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 32 -> 30, h=10 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 33 -> 34, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 33, 10, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 32 -> 36, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 32, 10, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 6 -> 38, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 6, 10, 80]
+ANSWER RREQ with RREP
+RREQ: [72#34 -> 0#0], bID=1, 33 -> 42, h=10 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 12 -> 49, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 12, 10, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 32 -> 61, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 32, 10, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 12 -> 68, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 12, 10, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 32 -> 76, h=10 DUPLICATE
+--------------------
+RREP: [72#.. -> 0#26], 38 -> 6, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 38, 3, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 49 -> 12, h=11 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 68 -> 12, h=11 DUPLICATE
+RREP: [72#.. -> 0#26], 22 -> 19, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 22, 5, 80]
+FORWARD RREP
+RREP: [72#.. -> 0#26], 14 -> 25, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 14, 5, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 36 -> 32, h=11 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 61 -> 32, h=11 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 34 -> 33, h=11 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 61 -> 36, h=11 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 36 -> 40, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 36, 11, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 61 -> 40, h=11 DUPLICATE
+RREP: [72#.. -> 0#26], 5 -> 43, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 5, 5, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 34 -> 47, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 34, 11, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 36 -> 61, h=11 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 49 -> 64, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 49, 11, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 68 -> 64, h=11 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 49 -> 79, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 49, 11, 80]
+REBROADCAST RREQ
+--------------------
+RREP: [72#.. -> 0#26], 6 -> 10, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 6, 4, 80]
+FORWARD RREP
+RREP: [72#.. -> 0#26], 19 -> 13, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 19, 6, 80]
+FORWARD RREP
+RREP: [72#.. -> 0#26], 43 -> 14, h=6
+DUPLICATE RREP
+[26, 8, 4, 78] [26, 8, 4, 78]
+RREQ: [72#34 -> 0#0], bID=1, 47 -> 34, h=12 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 40 -> 36, h=12 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 64 -> 49, h=12 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 79 -> 49, h=12 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 40 -> 51, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 40, 12, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 79 -> 54, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 79, 12, 80]
+ANSWER RREQ with RREP
+RREQ: [72#34 -> 0#0], bID=1, 40 -> 61, h=12 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 79 -> 64, h=12 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 64 -> 68, h=12 DUPLICATE
+RREP: [72#.. -> 0#26], 25 -> 72, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 25, 6, 80]
+RREQ INITIATOR
+RREQ: [72#34 -> 0#0], bID=1, 64 -> 79, h=12 DUPLICATE
+--------------------
+RREP: [72#.. -> 0#26], 13 -> 7, h=7
+DUPLICATE RREP
+[26, 26, 3, 76] [26, 26, 3, 76]
+RREP: [72#.. -> 0#26], 10 -> 16, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 10, 5, 80]
+FORWARD RREP
+Pack: [72#.. -> 0#..], 25, <dummy_message72>
+RREQ: [72#34 -> 0#0], bID=1, 51 -> 40, h=13 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 51 -> 52, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 51, 13, 80]
+REBROADCAST RREQ
+RREP: [72#.. -> 0#26], 54 -> 79, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 54, 5, 80]
+FORWARD RREP
+--------------------
+RREP: [72#.. -> 0#26], 16 -> 9, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 16, 6, 80]
+FORWARD RREP
+Pack: [72#.. -> 0#..], 14, <dummy_message72>
+RREP: [72#.. -> 0#26], 79 -> 49, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 79, 6, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 52 -> 51, h=14 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 52 -> 67, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 52, 14, 80]
+REBROADCAST RREQ
+--------------------
+RREP: [72#.. -> 0#26], 9 -> 1, h=7
+DUPLICATE RREP
+[26, 0, 1, 72] [26, 0, 1, 72]
+Pack: [72#.. -> 0#..], 8, <dummy_message72>
+RREP: [72#.. -> 0#26], 49 -> 12, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 49, 7, 80]
+FORWARD RREP
+RREQ: [72#34 -> 0#0], bID=1, 67 -> 52, h=15 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 67 -> 69, h=15
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 67, 15, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [72#.. -> 0#..], 3, <dummy_message72>
+RREP: [72#.. -> 0#26], 12 -> 10, h=8
+DUPLICATE RREP
+[26, 6, 4, 76] [26, 6, 4, 76]
+RREQ: [72#34 -> 0#0], bID=1, 69 -> 67, h=16 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 69 -> 74, h=16
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 69, 16, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [72#.. -> 0#..], 1, <dummy_message72>
+RREQ: [77#17 -> 0#0], bID=1, 77 -> 48, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 77, 1, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 77 -> 65, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 77, 1, 80]
+REBROADCAST RREQ
+RREQ: [72#34 -> 0#0], bID=1, 74 -> 69, h=17 DUPLICATE
+RREQ: [72#34 -> 0#0], bID=1, 74 -> 78, h=17
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [34, 74, 17, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [72#.. -> 0#..], 0, <dummy_message72>
+RREQ: [77#17 -> 0#0], bID=1, 48 -> 27, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 48, 2, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 48 -> 58, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 48, 2, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 65 -> 60, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 65, 2, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 48 -> 72, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 48, 2, 80]
+ANSWER RREQ with RREP
+RREQ: [72#34 -> 0#0], bID=1, 78 -> 74, h=18 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 48 -> 77, h=2 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 65 -> 77, h=2 DUPLICATE
+--------------------
+RREQ: [77#17 -> 0#0], bID=1, 27 -> 25, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 27, 3, 80]
+ANSWER RREQ with RREP
+RREQ: [77#17 -> 0#0], bID=1, 27 -> 45, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 27, 3, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 58 -> 45, h=3 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 27 -> 48, h=3 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 58 -> 48, h=3 DUPLICATE
+RREP: [77#.. -> 0#26], 72 -> 48, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 72, 7, 80]
+FORWARD RREP
+RREQ: [77#17 -> 0#0], bID=1, 60 -> 57, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 60, 3, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 60 -> 58, h=3 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 58 -> 60, h=3 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 60 -> 65, h=3 DUPLICATE
+--------------------
+RREQ: [77#17 -> 0#0], bID=1, 45 -> 20, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 45, 4, 80]
+REBROADCAST RREQ
+RREP: [77#.. -> 0#26], 25 -> 27, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 25, 6, 80]
+FORWARD RREP
+RREQ: [77#17 -> 0#0], bID=1, 45 -> 27, h=4 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 45 -> 44, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 45, 4, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 57 -> 44, h=4 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 45 -> 58, h=4 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 57 -> 60, h=4 DUPLICATE
+RREP: [77#.. -> 0#26], 48 -> 77, h=8
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 48, 8, 80]
+RREQ INITIATOR
+--------------------
+RREQ: [77#17 -> 0#0], bID=1, 20 -> 7, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 20, 5, 80]
+ANSWER RREQ with RREP
+RREQ: [77#17 -> 0#0], bID=1, 20 -> 15, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 20, 5, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 44 -> 17, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 44, 5, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 20 -> 45, h=5 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 44 -> 45, h=5 DUPLICATE
+RREP: [77#.. -> 0#26], 27 -> 48, h=7
+DUPLICATE RREP
+[26, 72, 7, 78] [26, 72, 7, 78]
+Pack: [77#.. -> 0#..], 48, <dummy_message77>
+RREQ: [77#17 -> 0#0], bID=1, 44 -> 57, h=5 DUPLICATE
+--------------------
+RREQ: [77#17 -> 0#0], bID=1, 15 -> 7, h=6 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 15 -> 13, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 15, 6, 80]
+ANSWER RREQ with RREP
+RREQ: [77#17 -> 0#0], bID=1, 17 -> 15, h=6 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 15 -> 17, h=6 DUPLICATE
+RREP: [77#.. -> 0#26], 7 -> 20, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 7, 4, 80]
+FORWARD RREP
+RREQ: [77#17 -> 0#0], bID=1, 15 -> 20, h=6 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 17 -> 21, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 17, 6, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 17 -> 44, h=6 DUPLICATE
+Pack: [77#.. -> 0#..], 72, <dummy_message77>
+--------------------
+RREP: [77#.. -> 0#26], 13 -> 15, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 13, 7, 80]
+FORWARD RREP
+RREQ: [77#17 -> 0#0], bID=1, 21 -> 17, h=7 DUPLICATE
+Pack: [77#.. -> 0#..], 25, <dummy_message77>
+RREP: [77#.. -> 0#26], 20 -> 45, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 20, 5, 80]
+FORWARD RREP
+RREQ: [77#17 -> 0#0], bID=1, 21 -> 50, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 21, 7, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [77#.. -> 0#..], 14, <dummy_message77>
+RREP: [77#.. -> 0#26], 15 -> 20, h=8
+DUPLICATE RREP
+[26, 7, 4, 78] [26, 7, 4, 78]
+RREQ: [77#17 -> 0#0], bID=1, 50 -> 21, h=8 DUPLICATE
+RREP: [77#.. -> 0#26], 45 -> 27, h=6
+DUPLICATE RREP
+[26, 25, 6, 76] [26, 25, 6, 76]
+RREQ: [77#17 -> 0#0], bID=1, 50 -> 42, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 50, 8, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [77#.. -> 0#..], 8, <dummy_message77>
+RREQ: [77#17 -> 0#0], bID=1, 42 -> 19, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 42, 9, 80]
+ANSWER RREQ with RREP
+RREQ: [77#17 -> 0#0], bID=1, 42 -> 22, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 42, 9, 80]
+ANSWER RREQ with RREP
+RREQ: [77#17 -> 0#0], bID=1, 42 -> 33, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 42, 9, 80]
+REBROADCAST RREQ
+RREQ: [77#17 -> 0#0], bID=1, 42 -> 50, h=9 DUPLICATE
+--------------------
+Pack: [77#.. -> 0#..], 3, <dummy_message77>
+RREQ: [77#17 -> 0#0], bID=1, 33 -> 22, h=10 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 33 -> 34, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 33, 10, 80]
+REBROADCAST RREQ
+RREP: [77#.. -> 0#26], 19 -> 42, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 19, 6, 80]
+FORWARD RREP
+RREP: [77#.. -> 0#26], 22 -> 42, h=5
+DUPLICATE RREP, FRESHER OR BETTER ROUTE
+[26, 19, 6, 80] [26, 22, 5, 80]
+FORWARD RREP
+RREQ: [77#17 -> 0#0], bID=1, 33 -> 42, h=10 DUPLICATE
+--------------------
+Pack: [77#.. -> 0#..], 1, <dummy_message77>
+RREQ: [77#17 -> 0#0], bID=1, 34 -> 33, h=11 DUPLICATE
+RREQ: [77#17 -> 0#0], bID=1, 34 -> 47, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [17, 34, 11, 80]
+REBROADCAST RREQ
+RREP: [77#.. -> 0#26], 42 -> 50, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 42, 7, 80]
+FORWARD RREP
+RREP: [77#.. -> 0#26], 42 -> 50, h=6
+DUPLICATE RREP, FRESHER OR BETTER ROUTE
+[26, 42, 7, 80] [26, 42, 6, 80]
+FORWARD RREP
+--------------------
+Pack: [77#.. -> 0#..], 0, <dummy_message77>
+RREP: [77#.. -> 0#26], 50 -> 21, h=8
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 50, 8, 80]
+FORWARD RREP
+RREP: [77#.. -> 0#26], 50 -> 21, h=7
+DUPLICATE RREP, FRESHER OR BETTER ROUTE
+[26, 50, 8, 80] [26, 50, 7, 80]
+FORWARD RREP
+RREQ: [77#17 -> 0#0], bID=1, 47 -> 34, h=12 DUPLICATE
+--------------------
+RREP: [77#.. -> 0#26], 21 -> 17, h=9
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 21, 9, 80]
+FORWARD RREP
+RREP: [77#.. -> 0#26], 21 -> 17, h=8
+DUPLICATE RREP, FRESHER OR BETTER ROUTE
+[26, 21, 9, 80] [26, 21, 8, 80]
+FORWARD RREP
+--------------------
+RREP: [77#.. -> 0#26], 17 -> 44, h=10
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 17, 10, 80]
+FORWARD RREP
+RREP: [77#.. -> 0#26], 17 -> 44, h=9
+DUPLICATE RREP, FRESHER OR BETTER ROUTE
+[26, 17, 10, 80] [26, 17, 9, 80]
+FORWARD RREP
+--------------------
+RREP: [77#.. -> 0#26], 44 -> 45, h=11
+DUPLICATE RREP
+[26, 20, 5, 72] [26, 20, 5, 72]
+RREP: [77#.. -> 0#26], 44 -> 45, h=10
+DUPLICATE RREP
+[26, 20, 5, 72] [26, 20, 5, 72]
+--------------------
+RREQ: [3#40 -> 0#26], bID=1, 3 -> 1, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 3, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [3#40 -> 0#26], bID=1, 3 -> 4, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 3, 1, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 3 -> 8, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 3, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [3#40 -> 0#26], bID=1, 3 -> 11, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 3, 1, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 3 -> 18, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 3, 1, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [3#40 -> 0#26], bID=1, 4 -> 0, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 4, 2, 80]
+RREQ TARGET
+RREQ: [3#40 -> 0#26], bID=1, 4 -> 1, h=2 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 11 -> 1, h=2 DUPLICATE
+RREP: [3#.. -> 0#26], 1 -> 3, h=2
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+[26, 1, 2, 1191] [26, 1, 2, 1191]
+RREQ INITIATOR
+RREQ: [3#40 -> 0#26], bID=1, 4 -> 3, h=2 DUPLICATE
+RREP: [3#.. -> 0#26], 8 -> 3, h=4
+DUPLICATE RREP
+[26, 1, 2, 1191] [26, 1, 2, 1191]
+RREQ INITIATOR
+RREQ: [3#40 -> 0#26], bID=1, 11 -> 3, h=2 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 18 -> 3, h=2 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 4 -> 5, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 4, 2, 80]
+ANSWER RREQ with RREP
+RREQ: [3#40 -> 0#26], bID=1, 18 -> 8, h=2 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 11 -> 9, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 11, 2, 80]
+ANSWER RREQ with RREP
+RREQ: [3#40 -> 0#26], bID=1, 11 -> 23, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 11, 2, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 18 -> 28, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 18, 2, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [3#.. -> 0#..], 1, <dummy_message3>
+RREP: [3#.. -> 0#26], 0 -> 4, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 0, 1, 80]
+FORWARD RREP
+RREP: [3#.. -> 0#26], 5 -> 4, h=5
+DUPLICATE RREP
+[26, 0, 1, 80] [26, 0, 1, 80]
+RREP: [3#.. -> 0#26], 9 -> 11, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 9, 7, 80]
+FORWARD RREP
+RREQ: [3#40 -> 0#26], bID=1, 23 -> 11, h=3 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 28 -> 18, h=3 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 23 -> 24, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 23, 3, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 23 -> 29, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 23, 3, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 28 -> 29, h=3 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 28 -> 31, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 28, 3, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [3#.. -> 0#..], 0, <dummy_message3>
+RREP: [3#.. -> 0#26], 4 -> 3, h=2
+DUPLICATE RREP
+[26, 1, 2, 1198] [26, 1, 2, 1198]
+RREQ INITIATOR
+Pack: [8#.. -> 0#..], 3, <dummy_message8>
+RREP: [3#.. -> 0#26], 11 -> 3, h=8
+DUPLICATE RREP
+[26, 1, 2, 1200] [26, 1, 2, 1200]
+RREQ INITIATOR
+RREQ: [3#40 -> 0#26], bID=1, 24 -> 9, h=4 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 24 -> 16, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 24, 4, 80]
+ANSWER RREQ with RREP
+RREQ: [3#40 -> 0#26], bID=1, 24 -> 23, h=4 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 29 -> 23, h=4 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 29 -> 28, h=4 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 31 -> 28, h=4 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 29 -> 37, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 29, 4, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 31 -> 55, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 31, 4, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [8#.. -> 0#..], 1, <dummy_message8>
+RREP: [3#.. -> 0#26], 16 -> 24, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 16, 6, 80]
+FORWARD RREP
+RREQ: [3#40 -> 0#26], bID=1, 37 -> 29, h=5 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 55 -> 31, h=5 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 37 -> 76, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 37, 5, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [8#.. -> 0#..], 0, <dummy_message8>
+RREP: [3#.. -> 0#26], 24 -> 23, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 24, 7, 80]
+FORWARD RREP
+RREQ: [3#40 -> 0#26], bID=1, 76 -> 32, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 76, 6, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 76 -> 37, h=6 DUPLICATE
+62 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+66 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+75 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+--------------------
+RREP: [3#.. -> 0#26], 23 -> 11, h=8
+DUPLICATE RREP
+[26, 9, 7, 76] [26, 9, 7, 76]
+RREQ: [3#40 -> 0#26], bID=1, 32 -> 30, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 32, 7, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 32 -> 36, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 32, 7, 80]
+REBROADCAST RREQ
+59 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 32 -> 61, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 32, 7, 80]
+REBROADCAST RREQ
+70 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 32 -> 76, h=7 DUPLICATE
+--------------------
+RREQ: [3#40 -> 0#26], bID=1, 30 -> 16, h=8 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 30 -> 32, h=8 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 36 -> 32, h=8 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 61 -> 32, h=8 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 61 -> 36, h=8 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 36 -> 40, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 36, 8, 80]
+REBROADCAST RREQ
+RREQ: [3#40 -> 0#26], bID=1, 61 -> 40, h=8 DUPLICATE
+56 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 36 -> 61, h=8 DUPLICATE
+--------------------
+RREQ: [3#40 -> 0#26], bID=1, 40 -> 36, h=9 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 40 -> 51, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 40, 9, 80]
+REBROADCAST RREQ
+54 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 40 -> 61, h=9 DUPLICATE
+--------------------
+RREQ: [3#40 -> 0#26], bID=1, 51 -> 40, h=10 DUPLICATE
+46 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 51 -> 52, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 51, 10, 80]
+REBROADCAST RREQ
+79 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+--------------------
+22 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+Pack: [72#.. -> 0#..], 25, <dummy_message72>
+38 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+49 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 52 -> 51, h=11 DUPLICATE
+64 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 52 -> 67, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 52, 11, 80]
+REBROADCAST RREQ
+--------------------
+2 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+Pack: [72#.. -> 0#..], 14, <dummy_message72>
+19 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+33 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+42 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 67 -> 52, h=12 DUPLICATE
+68 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 67 -> 69, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 67, 12, 80]
+REBROADCAST RREQ
+--------------------
+0 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+Pack: [72#.. -> 0#..], 8, <dummy_message72>
+10 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+13 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+26 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+34 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+50 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 69 -> 67, h=13 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 69 -> 74, h=13
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 69, 13, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [72#.. -> 0#..], 3, <dummy_message72>
+7 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+15 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+21 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+47 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 74 -> 69, h=14 DUPLICATE
+RREQ: [3#40 -> 0#26], bID=1, 74 -> 78, h=14
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [40, 74, 14, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [72#.. -> 0#..], 1, <dummy_message72>
+5 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+9 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+17 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+24 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+30 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [3#40 -> 0#26], bID=1, 78 -> 74, h=15 DUPLICATE
+--------------------
+Pack: [72#.. -> 0#..], 0, <dummy_message72>
+1 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+4 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+32 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+43 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+44 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+45 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+3 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+14 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+27 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+29 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+36 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+57 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+58 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+61 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+76 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+8 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+18 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+25 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+28 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+35 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+37 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+40 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+48 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+60 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+31 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+39 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+41 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+51 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+65 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+72 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+77 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+52 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+53 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+55 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+63 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+71 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+--------------------
+RREQ: [63#52 -> 0#0], bID=1, 63 -> 41, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 63, 1, 80]
+REBROADCAST RREQ
+67 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+RREQ: [63#52 -> 0#0], bID=1, 63 -> 73, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 63, 1, 80]
+REBROADCAST RREQ
+73 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+--------------------
+RREQ: [63#52 -> 0#0], bID=1, 41 -> 35, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 41, 2, 80]
+REBROADCAST RREQ
+RREQ: [63#52 -> 0#0], bID=1, 41 -> 39, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 41, 2, 80]
+REBROADCAST RREQ
+RREQ: [63#52 -> 0#0], bID=1, 41 -> 53, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 41, 2, 80]
+REBROADCAST RREQ
+RREQ: [63#52 -> 0#0], bID=1, 41 -> 63, h=2 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 73 -> 63, h=2 DUPLICATE
+69 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+--------------------
+RREQ: [63#52 -> 0#0], bID=1, 35 -> 8, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 35, 3, 80]
+ANSWER RREQ with RREP
+RREQ: [63#52 -> 0#0], bID=1, 35 -> 14, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 35, 3, 80]
+ANSWER RREQ with RREP
+RREQ: [63#52 -> 0#0], bID=1, 39 -> 25, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 39, 3, 80]
+ANSWER RREQ with RREP
+RREQ: [63#52 -> 0#0], bID=1, 39 -> 35, h=3 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 35 -> 39, h=3 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 53 -> 39, h=3 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 35 -> 41, h=3 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 39 -> 41, h=3 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 53 -> 41, h=3 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 39 -> 53, h=3 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 39 -> 71, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 39, 3, 80]
+REBROADCAST RREQ
+RREQ: [63#52 -> 0#0], bID=1, 53 -> 71, h=3 DUPLICATE
+74 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+--------------------
+RREP: [63#.. -> 0#26], 8 -> 35, h=4
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 8, 4, 80]
+FORWARD RREP
+RREP: [63#.. -> 0#26], 14 -> 35, h=5
+DUPLICATE RREP
+[26, 8, 4, 80] [26, 8, 4, 80]
+RREP: [63#.. -> 0#26], 25 -> 39, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 25, 6, 80]
+FORWARD RREP
+RREQ: [63#52 -> 0#0], bID=1, 71 -> 39, h=4 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 71 -> 53, h=4 DUPLICATE
+RREQ: [63#52 -> 0#0], bID=1, 71 -> 72, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [52, 71, 4, 80]
+ANSWER RREQ with RREP
+78 -> REMOVE RREQ-ENTRY src:66,bID:1,dest0
+--------------------
+RREP: [63#.. -> 0#26], 35 -> 41, h=5
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 35, 5, 80]
+FORWARD RREP
+RREP: [63#.. -> 0#26], 39 -> 41, h=7
+DUPLICATE RREP
+[26, 35, 5, 80] [26, 35, 5, 80]
+RREP: [63#.. -> 0#26], 72 -> 71, h=7
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 72, 7, 80]
+FORWARD RREP
+--------------------
+RREP: [63#.. -> 0#26], 71 -> 39, h=8
+DUPLICATE RREP
+[26, 25, 6, 78] [26, 25, 6, 78]
+RREP: [63#.. -> 0#26], 41 -> 63, h=6
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 41, 6, 80]
+RREQ INITIATOR
+--------------------
+Pack: [63#.. -> 0#..], 41, <dummy_message63>
+--------------------
+Pack: [63#.. -> 0#..], 35, <dummy_message63>
+--------------------
+Pack: [63#.. -> 0#..], 8, <dummy_message63>
+--------------------
+Pack: [63#.. -> 0#..], 3, <dummy_message63>
+--------------------
+Pack: [63#.. -> 0#..], 1, <dummy_message63>
+--------------------
+Pack: [63#.. -> 0#..], 0, <dummy_message63>
+--------------------
+Pack: [17#.. -> 0#..], 21, <dummy_message17>
+25 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+48 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+71 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+72 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+14 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+27 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+39 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+Pack: [17#.. -> 0#..], 50, <dummy_message17>
+53 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+58 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+77 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+8 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+35 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+41 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+Pack: [17#.. -> 0#..], 42, <dummy_message17>
+43 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+45 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+60 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+65 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+3 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+5 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+18 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+20 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+Pack: [17#.. -> 0#..], 22, <dummy_message17>
+44 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+57 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+63 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+1 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+4 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+7 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+15 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+17 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+28 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+Pack: [17#.. -> 0#..], 46, <dummy_message17>
+73 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+0 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+9 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+13 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+21 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+23 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+26 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+29 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+31 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+Pack: [17#.. -> 0#..], 38, <dummy_message17>
+--------------------
+Pack: [17#.. -> 0#..], 2, <dummy_message17>
+2 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+16 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+19 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+24 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+37 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+50 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+55 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+Pack: [17#.. -> 0#..], 0, <dummy_message17>
+10 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+30 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+42 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+76 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+6 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+12 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+32 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+33 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+46 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+34 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+36 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+38 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+49 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+61 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+68 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+40 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+47 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+64 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+79 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+51 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+54 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+52 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+67 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+69 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+74 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 6 -> 0, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 6, 1, 80]
+RREQ TARGET
+RREQ: [6#86 -> 0#27], bID=1, 6 -> 2, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 6, 1, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 6 -> 10, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 6, 1, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 6 -> 38, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 6, 1, 80]
+REBROADCAST RREQ
+48 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+65 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+77 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+78 -> REMOVE RREQ-ENTRY src:72,bID:1,dest0
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 2 -> 0, h=2 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 38 -> 2, h=2 DUPLICATE
+RREP: [6#.. -> 0#27], 0 -> 6, h=1
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+[27, 38, 255, 0] [27, 0, 1, 80]
+RREQ INITIATOR
+RREQ: [6#86 -> 0#27], bID=1, 2 -> 6, h=2 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 10 -> 6, h=2 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 38 -> 6, h=2 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 10 -> 12, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 10, 2, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 10 -> 16, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 10, 2, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 2 -> 26, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 2, 2, 80]
+REBROADCAST RREQ
+27 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 2 -> 38, h=2 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 38 -> 46, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 38, 2, 80]
+REBROADCAST RREQ
+58 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+60 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+72 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+--------------------
+Pack: [6#.. -> 0#..], 0, <dummy_message6>
+RREQ: [6#86 -> 0#27], bID=1, 26 -> 2, h=3 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 26 -> 7, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 26, 3, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 16 -> 9, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 16, 3, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 12 -> 10, h=3 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 16 -> 10, h=3 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 26 -> 13, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 26, 3, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 26 -> 19, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 26, 3, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 46 -> 22, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 46, 3, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 16 -> 24, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 16, 3, 80]
+REBROADCAST RREQ
+25 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 16 -> 30, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 16, 3, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 46 -> 38, h=3 DUPLICATE
+45 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 12 -> 49, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 12, 3, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 46 -> 54, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 46, 3, 80]
+REBROADCAST RREQ
+57 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 12 -> 68, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 12, 3, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 9 -> 1, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 9, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 7 -> 5, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 7, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 13 -> 7, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 24 -> 9, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 9 -> 11, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 9, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 49 -> 12, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 68 -> 12, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 7 -> 13, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 19 -> 13, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 7 -> 15, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 7, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 13 -> 15, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 9 -> 16, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 24 -> 16, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 30 -> 16, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 13 -> 19, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 22 -> 19, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 7 -> 20, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 7, 4, 80]
+REBROADCAST RREQ
+20 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 19 -> 22, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 24 -> 23, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 24, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 9 -> 24, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 7 -> 26, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 13 -> 26, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 19 -> 26, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 30 -> 32, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 30, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 22 -> 33, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 22, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 19 -> 42, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 19, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 22 -> 42, h=4 DUPLICATE
+44 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 22 -> 46, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 54 -> 46, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 54 -> 56, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 54, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 49 -> 64, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 49, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 68 -> 64, h=4 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 49 -> 79, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 49, 4, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 54 -> 79, h=4 DUPLICATE
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 1 -> 0, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 11 -> 1, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 1 -> 3, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 1, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 11 -> 3, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 1 -> 4, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 1, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 5 -> 4, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 5 -> 7, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 15 -> 7, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 20 -> 7, h=5 DUPLICATE
+7 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 1 -> 9, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 11 -> 9, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 1 -> 11, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 23 -> 11, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 15 -> 13, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 20 -> 15, h=5 DUPLICATE
+15 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 15 -> 17, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 15, 5, 80]
+REBROADCAST RREQ
+17 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 42 -> 19, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 15 -> 20, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 33 -> 22, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 42 -> 22, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 11 -> 23, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 23 -> 24, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 23 -> 29, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 23, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 32 -> 30, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 42 -> 33, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 33 -> 34, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 33, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 32 -> 36, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 32, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 33 -> 42, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 5 -> 43, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 5, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 20 -> 45, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 20, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 64 -> 49, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 79 -> 49, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 42 -> 50, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 42, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 56 -> 54, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 79 -> 54, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 56 -> 59, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 56, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 32 -> 61, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 32, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 79 -> 64, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 64 -> 68, h=5 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 32 -> 76, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 32, 5, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 64 -> 79, h=5 DUPLICATE
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 4 -> 0, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 3 -> 1, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 4 -> 1, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 4 -> 3, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 3 -> 4, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 4 -> 5, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 43 -> 5, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 3 -> 8, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 3, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 3 -> 11, h=6 DUPLICATE
+13 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 43 -> 14, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 43, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 17 -> 15, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 3 -> 18, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 3, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 45 -> 20, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 17 -> 21, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 17, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 50 -> 21, h=6 DUPLICATE
+21 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 29 -> 23, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 45 -> 27, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 45, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 29 -> 28, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 29, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 36 -> 32, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 61 -> 32, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 76 -> 32, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 34 -> 33, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 61 -> 36, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 29 -> 37, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 29, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 76 -> 37, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 36 -> 40, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 36, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 61 -> 40, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 50 -> 42, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 17 -> 44, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 17, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 45 -> 44, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 34 -> 47, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 34, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 59 -> 56, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 45 -> 58, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 45, 6, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 36 -> 61, h=6 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 59 -> 62, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 59, 6, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 8 -> 3, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 18 -> 3, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 14 -> 8, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 18 -> 8, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 8 -> 14, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 21 -> 17, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 44 -> 17, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 8 -> 18, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 28 -> 18, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 14 -> 25, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 14, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 27 -> 25, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 18 -> 28, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 28 -> 29, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 37 -> 29, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 28 -> 31, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 28, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 47 -> 34, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 8 -> 35, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 8, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 14 -> 35, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 40 -> 36, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 14 -> 43, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 27 -> 45, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 44 -> 45, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 58 -> 45, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 27 -> 48, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 27, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 58 -> 48, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 21 -> 50, h=7 DUPLICATE
+50 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 40 -> 51, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 40, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 44 -> 57, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 44, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 62 -> 59, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 58 -> 60, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 58, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 40 -> 61, h=7 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 62 -> 66, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 62, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 62 -> 70, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 62, 7, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 37 -> 76, h=7 DUPLICATE
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 35 -> 8, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 25 -> 14, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 35 -> 14, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 25 -> 27, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 48 -> 27, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 31 -> 28, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 25 -> 39, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 25, 8, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 35 -> 39, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 51 -> 40, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 35 -> 41, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 35, 8, 80]
+REBROADCAST RREQ
+42 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 57 -> 44, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 51 -> 52, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 51, 8, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 31 -> 55, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 31, 8, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 60 -> 57, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 48 -> 58, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 60 -> 58, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 57 -> 60, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 66 -> 62, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 70 -> 62, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 60 -> 65, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 60, 8, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 25 -> 72, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 25, 8, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 48 -> 72, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 66 -> 75, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 66, 8, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 70 -> 75, h=8 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 48 -> 77, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 48, 8, 80]
+REBROADCAST RREQ
+--------------------
+19 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+22 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 39 -> 25, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 72 -> 25, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 55 -> 31, h=9 DUPLICATE
+33 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 39 -> 35, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 41 -> 35, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 41 -> 39, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 39 -> 41, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 72 -> 48, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 77 -> 48, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 52 -> 51, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 39 -> 53, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 39, 9, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 41 -> 53, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 65 -> 60, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 41 -> 63, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 41, 9, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 77 -> 65, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 75 -> 66, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 52 -> 67, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 52, 9, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 75 -> 70, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 39 -> 71, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 39, 9, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 72 -> 71, h=9 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 65 -> 77, h=9 DUPLICATE
+--------------------
+34 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 53 -> 39, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 71 -> 39, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 53 -> 41, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 63 -> 41, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 67 -> 52, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 71 -> 53, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 67 -> 69, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 67, 10, 80]
+REBROADCAST RREQ
+RREQ: [6#86 -> 0#27], bID=1, 53 -> 71, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 71 -> 72, h=10 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 63 -> 73, h=10
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 63, 10, 80]
+REBROADCAST RREQ
+--------------------
+47 -> REMOVE RREQ-ENTRY src:77,bID:1,dest0
+RREQ: [6#86 -> 0#27], bID=1, 73 -> 63, h=11 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 69 -> 67, h=11 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 69 -> 74, h=11
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 69, 11, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 74 -> 69, h=12 DUPLICATE
+RREQ: [6#86 -> 0#27], bID=1, 74 -> 78, h=12
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [86, 74, 12, 80]
+REBROADCAST RREQ
+--------------------
+RREQ: [6#86 -> 0#27], bID=1, 78 -> 74, h=13 DUPLICATE
+--------------------
+RREQ: [18#75 -> 0#0], bID=1, 18 -> 3, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 18, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [18#75 -> 0#0], bID=1, 18 -> 8, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 18, 1, 80]
+ANSWER RREQ with RREP
+RREQ: [18#75 -> 0#0], bID=1, 18 -> 28, h=1
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 18, 1, 80]
+REBROADCAST RREQ
+--------------------
+1 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+3 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+4 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+8 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+11 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREP: [18#.. -> 0#26], 3 -> 18, h=3
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 3, 3, 80]
+RREQ INITIATOR
+RREP: [18#.. -> 0#26], 8 -> 18, h=4
+DUPLICATE RREP
+[26, 3, 3, 80] [26, 3, 3, 80]
+RREQ INITIATOR
+RREQ: [18#75 -> 0#0], bID=1, 28 -> 18, h=2 DUPLICATE
+18 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 28 -> 29, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 28, 2, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 28 -> 31, h=2
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 28, 2, 80]
+REBROADCAST RREQ
+--------------------
+0 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+Pack: [18#.. -> 0#..], 3, <dummy_message18>
+5 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+9 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 29 -> 23, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 29, 3, 80]
+ANSWER RREQ with RREP
+23 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 29 -> 28, h=3 DUPLICATE
+RREQ: [18#75 -> 0#0], bID=1, 31 -> 28, h=3 DUPLICATE
+28 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 29 -> 37, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 29, 3, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 31 -> 55, h=3
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 31, 3, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [18#.. -> 0#..], 1, <dummy_message18>
+24 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREP: [18#.. -> 0#26], 23 -> 29, h=8
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 23, 8, 80]
+FORWARD RREP
+RREQ: [18#75 -> 0#0], bID=1, 37 -> 29, h=4 DUPLICATE
+29 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 55 -> 31, h=4 DUPLICATE
+31 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 37 -> 76, h=4
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 37, 4, 80]
+REBROADCAST RREQ
+--------------------
+Pack: [18#.. -> 0#..], 0, <dummy_message18>
+16 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREP: [18#.. -> 0#26], 29 -> 28, h=9
+UPDATED RREQ-ENTRY, EDITED ROUTING_TABLE
+no entry [26, 29, 9, 80]
+FORWARD RREP
+RREQ: [18#75 -> 0#0], bID=1, 76 -> 32, h=5
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 76, 5, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 76 -> 37, h=5 DUPLICATE
+37 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+55 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+--------------------
+RREP: [18#.. -> 0#26], 28 -> 18, h=10
+DUPLICATE RREP
+[26, 3, 3, 1196] [26, 3, 3, 1196]
+RREQ INITIATOR
+RREQ: [18#75 -> 0#0], bID=1, 32 -> 30, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 32, 6, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 32 -> 36, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 32, 6, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 32 -> 61, h=6
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 32, 6, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 32 -> 76, h=6 DUPLICATE
+76 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+--------------------
+RREQ: [18#75 -> 0#0], bID=1, 30 -> 16, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 30, 7, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 30 -> 32, h=7 DUPLICATE
+RREQ: [18#75 -> 0#0], bID=1, 36 -> 32, h=7 DUPLICATE
+RREQ: [18#75 -> 0#0], bID=1, 61 -> 32, h=7 DUPLICATE
+32 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 61 -> 36, h=7 DUPLICATE
+RREQ: [18#75 -> 0#0], bID=1, 36 -> 40, h=7
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 36, 7, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 61 -> 40, h=7 DUPLICATE
+RREQ: [18#75 -> 0#0], bID=1, 36 -> 61, h=7 DUPLICATE
+--------------------
+RREQ: [18#75 -> 0#0], bID=1, 16 -> 9, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 16, 8, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 16 -> 10, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 16, 8, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 16 -> 24, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 16, 8, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 16 -> 30, h=8 DUPLICATE
+30 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 40 -> 36, h=8 DUPLICATE
+36 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+RREQ: [18#75 -> 0#0], bID=1, 40 -> 51, h=8
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 40, 8, 80]
+REBROADCAST RREQ
+RREQ: [18#75 -> 0#0], bID=1, 40 -> 61, h=8 DUPLICATE
+61 -> REMOVE RREQ-ENTRY src:3,bID:1,dest0
+--------------------
+RREQ: [18#75 -> 0#0], bID=1, 9 -> 1, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE
+no entry [75, 9, 9, 80]
+ANSWER RREQ with RREP
+RREQ: [18#75 -> 0#0], bID=1, 10 -> 6, h=9
+ADDED RREQ-Entry, EDITED ROUTING_TABLE

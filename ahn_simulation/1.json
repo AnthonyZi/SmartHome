@@ -1,0 +1,51 @@
+{
+    "simulation_canvas":
+    {
+        "node_width": 20,
+        "node_tx_range": 120,
+        "update_rate": 20,
+        "tx_range": 120,
+        "package_generation_T": 10,
+        "route_expiration_T": 10
+    },
+    "nodes":
+    [
+        {
+            "cor_x": 100,
+            "cor_y": 100,
+            "node_id": 0,
+            "tx_probability": 0
+        },
+        {
+            "cor_x": 200,
+            "cor_y": 100,
+            "node_id": 1,
+            "tx_probability": 0,
+            "tx_at":
+            {
+                "3.0": [0, "msg102"],
+                "5.0": [0, "msg103"]
+            },
+            "routing_table":
+            {
+                "0": [2, 0, 1, 10]
+            }
+        },
+        {
+            "cor_x": 300,
+            "cor_y": 100,
+            "node_id": 2,
+            "tx_probability": 0,
+            "tx_at":
+            {
+                "1.0": [0, "msg201"],
+                "12.0": [0, "msg204"],
+                "25.0": [0, "msg205"]
+            },
+            "routing_table":
+            {
+                "0": [0, 1, 2, 10]
+            }
+        }
+    ]
+}

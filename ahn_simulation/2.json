@@ -1,0 +1,75 @@
+{
+    "simulation_canvas":
+    {
+        "node_width": 20,
+        "node_tx_range": 120,
+        "update_rate": 20,
+        "tx_range": 120,
+        "package_generation_T": 10,
+        "route_expiration_T": 10
+    },
+    "nodes":
+    [
+        {
+            "cor_x": 100,
+            "cor_y": 100,
+            "node_id": 0,
+            "tx_probability": 0,
+            "seq_num": 42
+        },
+        {
+            "cor_x": 100,
+            "cor_y": 200,
+            "node_id": 1,
+            "tx_probability": 0
+        },
+        {
+            "cor_x": 100,
+            "cor_y": 300,
+            "node_id": 2,
+            "tx_probability": 0,
+            "tx_at":
+            {
+                "3.0": [0, "test_message_1"],
+                "8.0": [0, "test_message_2"],
+                "20.0": [0, "test_message_4"]
+            }
+        },
+        {
+            "cor_x": 200,
+            "cor_y": 100,
+            "node_id": 3,
+            "tx_probability": 0,
+            "routing_table":
+            {
+                "0": [42,0,1,10]
+            }
+        },
+        {
+            "cor_x": 200,
+            "cor_y": 200,
+            "node_id": 4,
+            "tx_probability": 0,
+            "routing_table":
+            {
+                "0": [42,3,2,10]
+            }
+        },
+        {
+            "cor_x": 200,
+            "cor_y": 300,
+            "node_id": 5,
+            "tx_probability": 0,
+            "routing_table":
+            {
+                "0": [42,4,3,10]
+            },
+            "tx_at":
+            {
+                "12.0": [0, "test_message_3"],
+                "35.0": [0, "test_message_5"],
+                "36.0": [2, "test_message_6"]
+            }
+        }
+    ]
+}

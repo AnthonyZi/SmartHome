@@ -1,0 +1,46 @@
+{
+    "simulation_canvas":
+    {
+        "node_width": 20,
+        "node_tx_range": 120,
+        "update_rate": 20,
+        "package_generation_T": 60,
+        "route_expiration_T": 60
+    },
+    "nodes":
+    [
+        {
+            "cor_x": 100,
+            "cor_y": 100,
+            "node_id": 0,
+            "tx_probability": 0,
+            "seq_num": 42
+        },
+        {
+            "cor_x": 100,
+            "cor_y": 200,
+            "node_id": 1,
+            "tx_probability": 0
+        },
+        {
+            "cor_x": 100,
+            "cor_y": 300,
+            "node_id": 2
+        },
+        {
+            "cor_x": 200,
+            "cor_y": 100,
+            "node_id": 3
+        },
+        {
+            "cor_x": 200,
+            "cor_y": 200,
+            "node_id": 4
+        },
+        {
+            "cor_x": 200,
+            "cor_y": 300,
+            "node_id": 5
+        }
+    ]
+}
